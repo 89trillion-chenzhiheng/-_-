@@ -1,0 +1,38 @@
+﻿<Properties StartupConfiguration="{29B68F9C-FF64-6D6B-44A2-060B21DF718A}|">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/Controller/SimpleJSON.cs">
+    <Files>
+      <File FileName="Assets/Scripts/JsonConversion/AnalysisJson.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/JsonConversion/BlockMessage.cs" Line="14" Column="30" />
+      <File FileName="Assets/Scripts/UI/BlockBase.cs" />
+      <File FileName="Assets/Scripts/UI/Card.cs" Line="50" Column="6" />
+      <File FileName="Assets/Scripts/UI/FreeBlock.cs" />
+      <File FileName="Assets/Scripts/UI/Rewards.cs" Line="75" Column="51" />
+      <File FileName="Assets/Scripts/UI/StorePanel.cs" Line="27" Column="35" />
+      <File FileName="Assets/Scripts/UI/StoreTitle.cs" Line="59" Column="53" />
+      <File FileName="Assets/Scripts/RewardType.cs" />
+      <File FileName="Assets/Scripts/Controller/SimpleJSON.cs" Line="84" Column="58" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="每日精选_宝箱" expanded="True">
+            <Node name="Assets" expanded="True">
+              <Node name="Scripts" expanded="True">
+                <Node name="Controller" expanded="True">
+                  <Node name="SimpleJSON.cs" selected="True" />
+                </Node>
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="c74f99c5-0078-4efe-84e5-17bf880ea258" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>
