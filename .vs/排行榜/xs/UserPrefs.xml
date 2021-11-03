@@ -1,0 +1,34 @@
+﻿<Properties StartupConfiguration="{AFD9931B-9DDB-B2E4-714E-71907FC91485}|">
+  <MonoDevelop.Ide.Workbench>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="排行榜" expanded="True">
+            <Node name="Assets" expanded="True">
+              <Node name="PlugIn" expanded="True">
+                <Node name="OSA" expanded="True" />
+              </Node>
+              <Node name="Scripts" expanded="True">
+                <Node name="Controller" expanded="True">
+                  <Node name="JsonAnalysis" expanded="True" />
+                </Node>
+                <Node name="Model" expanded="True" />
+                <Node name="View" expanded="True">
+                  <Node name="ToastShowMessage.cs" selected="True" />
+                </Node>
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.OSA PreferredExecutionTarget="278bf399-6a1c-458a-be87-f65c59b10f5b" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="e6231669-73f8-4818-8841-d38334150465" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>
