@@ -1,21 +1,31 @@
 ﻿<Properties StartupConfiguration="{AFD9931B-9DDB-B2E4-714E-71907FC91485}|">
-  <MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/PlugIn/OSA/Scripts/frame8/Extensions/TransformExtensions.cs">
+    <Files>
+      <File FileName="Assets/Scripts/Controller/BasicListAdapter.cs" Line="287" Column="18" />
+      <File FileName="Assets/PlugIn/OSA/Scripts/frame8/Extensions/TransformExtensions.cs" Line="19" Column="42" />
+    </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="排行榜" expanded="True">
             <Node name="Assets" expanded="True">
               <Node name="PlugIn" expanded="True">
-                <Node name="OSA" expanded="True" />
+                <Node name="OSA" expanded="True">
+                  <Node name="Scripts" expanded="True">
+                    <Node name="frame8" expanded="True">
+                      <Node name="Extensions" expanded="True">
+                        <Node name="TransformExtensions.cs" selected="True" />
+                      </Node>
+                    </Node>
+                  </Node>
+                </Node>
               </Node>
               <Node name="Scripts" expanded="True">
                 <Node name="Controller" expanded="True">
                   <Node name="JsonAnalysis" expanded="True" />
                 </Node>
                 <Node name="Model" expanded="True" />
-                <Node name="View" expanded="True">
-                  <Node name="ToastShowMessage.cs" selected="True" />
-                </Node>
+                <Node name="View" expanded="True" />
               </Node>
             </Node>
           </Node>
@@ -26,7 +36,7 @@
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.ItemProperties.OSA PreferredExecutionTarget="278bf399-6a1c-458a-be87-f65c59b10f5b" />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="e6231669-73f8-4818-8841-d38334150465" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="20766459-83ca-461a-aab5-8bb8e8138fbe" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
