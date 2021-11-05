@@ -5252,10 +5252,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   backgroundSprites:
-  - {fileID: 21300000, guid: f68cec57a663f492ab4d684d1d2fdef5, type: 3}
-  - {fileID: 21300000, guid: 036ae346af62841a8ab5974dfc86397d, type: 3}
+  - {fileID: 21300000, guid: 7dc818c2b496f4a5094086afbda724b3, type: 3}
+  - {fileID: 21300000, guid: 6483df1e317864d38a3e68729980d03e, type: 3}
   - {fileID: 21300000, guid: b96cf1e96ad5a495a844b9bec9770e9d, type: 3}
-  - {fileID: 21300000, guid: c0689b21f687c4941af645ecda002b49, type: 3}
+  - {fileID: 21300000, guid: 35dd570438b4b406fa15defa5160a9c8, type: 3}
   segmentPositionIconSprites:
   - {fileID: 21300000, guid: 0a1e7d15ae2a2448d9a06884e2d4ae94, type: 3}
   - {fileID: 21300000, guid: f2f458692dc4a4774bfe95afda3a891d, type: 3}
