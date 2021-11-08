@@ -16,9 +16,9 @@ public class Card : BlockBase
     /// <summary>
     /// 根据类型设置图标的显示
     /// </summary>
-    /// <param name="type">类型</param>
-    public void SetCardIcon(int type)
+    public void Start()
     {
+        int type = GameManager.Instance.ObjHashTypeMessage(gameObject);
         // 默认为0，避免没有该类型的时候数组越界
         int index = 0;
         // 根据类型更改图标集合的索引

@@ -64,11 +64,12 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\Scripts\Controller\AnalysisJson.cs" />
-    <Compile Include="Assets\Scripts\Controller\SimpleJSON.cs" />
-    <Compile Include="Assets\Scripts\Controller\SimpleJSONBinary.cs" />
-    <Compile Include="Assets\Scripts\Controller\SimpleJSONDotNetTypes.cs" />
-    <Compile Include="Assets\Scripts\Controller\SimpleJSONUnity.cs" />
+    <Compile Include="Assets\Scripts\Controller\GameManager.cs" />
+    <Compile Include="Assets\Scripts\Controller\JsonOperation\AnalysisJson.cs" />
+    <Compile Include="Assets\Scripts\Controller\JsonOperation\SimpleJSON.cs" />
+    <Compile Include="Assets\Scripts\Controller\JsonOperation\SimpleJSONBinary.cs" />
+    <Compile Include="Assets\Scripts\Controller\JsonOperation\SimpleJSONDotNetTypes.cs" />
+    <Compile Include="Assets\Scripts\Controller\JsonOperation\SimpleJSONUnity.cs" />
     <Compile Include="Assets\Scripts\Model\BlockMessage.cs" />
     <Compile Include="Assets\Scripts\Model\RewardType.cs" />
     <Compile Include="Assets\Scripts\View\BlockBase.cs" />

@@ -15,8 +15,11 @@ public class FreeBlock : BlockBase
     /// 设置免费块的类型显示
     /// </summary>
     /// <param name="type">要显示的类型</param>
-    public void SetFreeBlockIcon(RewardType type)
+    public override void Start()
     {
+        base.Start();
+
+        RewardType type = (RewardType)GameManager.Instance.ObjHashTypeMessage(gameObject);
         int index = 0; // 默认值为0
 
         switch (type)

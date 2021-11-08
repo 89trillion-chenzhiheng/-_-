@@ -39,22 +39,16 @@ public class StorePanel : MonoBehaviour
             switch (block.type)
             {
                 case RewardType.Coins:
-                    // 创建免费块
-                    FreeBlock freeBlock = GameObject.Instantiate(freeCoinPrefab, cardFather).GetComponent<FreeBlock>();
-                    // 设置免费块的类型
-                    freeBlock.SetFreeBlockIcon(RewardType.Coins);
+                    // 创建免费块并添加印射
+                    GameManager.Instance.AddObjHashTypeMessage(GameObject.Instantiate(freeCoinPrefab, cardFather), (int)RewardType.Coins);
                     break;
                 case RewardType.Diamonds:
-                    // 创建免费块
-                    FreeBlock free = GameObject.Instantiate(freeCoinPrefab, cardFather).GetComponent<FreeBlock>();
-                    // 设置免费块的类型
-                    free.SetFreeBlockIcon(RewardType.Diamonds);
+                    // 创建免费块并添加印射
+                    GameManager.Instance.AddObjHashTypeMessage(GameObject.Instantiate(freeCoinPrefab, cardFather), (int)RewardType.Diamonds);
                     break;
                 case RewardType.Cards:
-                    // 创建Card块
-                    Card card = GameObject.Instantiate(cardPrefab, cardFather).GetComponent<Card>();
-                    // 设置免费块的类型
-                    card.SetCardIcon((int)block.subType);
+                    // 创建Card块并添加印射
+                    GameManager.Instance.AddObjHashTypeMessage(GameObject.Instantiate(cardPrefab, cardFather), (int)block.subType);
                     break;
                 default:
                     break;

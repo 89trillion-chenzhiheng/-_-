@@ -1,15 +1,15 @@
 ﻿<Properties StartupConfiguration="{29B68F9C-FF64-6D6B-44A2-060B21DF718A}|">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/Controller/AnalysisJson.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/View/StoreTitle.cs">
     <Files>
-      <File FileName="Assets/Scripts/View/BlockBase.cs" Line="25" Column="18" />
-      <File FileName="Assets/Scripts/View/Card.cs" Line="49" Column="31" />
-      <File FileName="Assets/Scripts/View/FreeBlock.cs" Line="37" Column="1" />
-      <File FileName="Assets/Scripts/View/Rewards.cs" Line="75" Column="33" />
-      <File FileName="Assets/Scripts/View/StorePanel.cs" Line="27" Column="76" />
-      <File FileName="Assets/Scripts/View/StoreTitle.cs" Line="42" Column="29" />
-      <File FileName="Assets/Scripts/Controller/AnalysisJson.cs" Line="8" Column="11" />
+      <File FileName="Assets/Scripts/View/StorePanel.cs" Line="51" Column="124" />
+      <File FileName="Assets/Scripts/View/Rewards.cs" Line="83" Column="30" />
+      <File FileName="Assets/Scripts/Controller/GameManager.cs" Line="25" Column="25" />
+      <File FileName="Assets/Scripts/View/FreeBlock.cs" Line="21" Column="1" />
+      <File FileName="Assets/Scripts/View/Card.cs" Line="19" Column="24" />
       <File FileName="Assets/Scripts/Model/BlockMessage.cs" Line="1" Column="1" />
       <File FileName="Assets/Scripts/Model/RewardType.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/View/BlockBase.cs" Line="22" Column="6" />
+      <File FileName="Assets/Scripts/View/StoreTitle.cs" Line="1" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -17,11 +17,11 @@
           <Node name="每日精选_宝箱" expanded="True">
             <Node name="Assets" expanded="True">
               <Node name="Scripts" expanded="True">
-                <Node name="Controller" expanded="True">
-                  <Node name="AnalysisJson.cs" selected="True" />
-                </Node>
+                <Node name="Controller" expanded="True" />
                 <Node name="Model" expanded="True" />
-                <Node name="View" expanded="True" />
+                <Node name="View" expanded="True">
+                  <Node name="StoreTitle.cs" selected="True" />
+                </Node>
               </Node>
             </Node>
           </Node>
@@ -31,7 +31,7 @@
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="20766459-83ca-461a-aab5-8bb8e8138fbe" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="a323b3a3-5f71-400b-a467-42a2f757bba7" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>

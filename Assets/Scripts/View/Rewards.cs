@@ -36,7 +36,7 @@ public class Rewards : MonoBehaviour
     // 第几次点击
     private int clickNum = 0;
     // 金币池
-    private List<RectTransform> coins = new List<RectTransform>(); 
+    private List<Transform> coins = new List<Transform>(); 
 
     /// <summary>
     /// 当宝箱被打开
@@ -74,11 +74,11 @@ public class Rewards : MonoBehaviour
             // 更新金币数量 
             storePanel.storeTitle.CoinAmount += 1;
             // 金币实例设置为null，接下来判断是实例化还是从金币池中获取
-            RectTransform coin = null;
+            Transform coin = null;
             // 实例化金币
             if(i >= coins.Count)
             {
-                coin = GameObject.Instantiate(coinPrefab, coinFriend, false).GetComponent<RectTransform>();
+                coin = GameObject.Instantiate(coinPrefab, coinFriend, false).transform;
                 // 金币加入金币池
                 coins.Add(coin);
             }

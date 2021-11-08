@@ -141,7 +141,7 @@ MonoBehaviour:
   m_MinSize: {x: 781, y: 492}
   m_MaxSize: {x: 16006, y: 14042}
   vertical: 0
-  controlID: 43
+  controlID: 112
 --- !u!114 &7
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -166,7 +166,7 @@ MonoBehaviour:
   m_MinSize: {x: 505, y: 492}
   m_MaxSize: {x: 12005, y: 14042}
   vertical: 1
-  controlID: 44
+  controlID: 113
 --- !u!114 &8
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -192,7 +192,7 @@ MonoBehaviour:
   m_MinSize: {x: 505, y: 221}
   m_MaxSize: {x: 12005, y: 4021}
   vertical: 0
-  controlID: 45
+  controlID: 114
 --- !u!114 &9
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -491,9 +491,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: -12.033255, y: 0.83513606, z: -39.53551}
+    m_Target: {x: -36.084724, y: 2.9638395, z: -45.54765}
     speed: 2
-    m_Value: {x: -12.033255, y: 0.83513606, z: -39.53551}
+    m_Value: {x: -36.084724, y: 2.9638395, z: -45.54765}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -543,9 +543,9 @@ MonoBehaviour:
     speed: 2
     m_Value: {x: 0, y: 0, z: 0, w: 1}
   m_Size:
-    m_Target: 62.87712
+    m_Target: 98.164375
     speed: 2
-    m_Value: 62.87712
+    m_Value: 89.53886
   m_Ortho:
     m_Target: 1
     speed: 2
@@ -598,10 +598,10 @@ MonoBehaviour:
   m_ViewDataDictionary: {fileID: 0}
   m_SceneHierarchy:
     m_TreeViewState:
-      scrollPos: {x: 0, y: 241}
-      m_SelectedIDs: 
-      m_LastClickedID: 0
-      m_ExpandedIDs: 68faffff6efaffff74faffffd0faffffd2fafffff0fafffff8fafffffefaffff02fbffff06fbffff0cfbffff1afbffff1efbffff24fbffff30fbffff32fbffff46fbffff5cfbffff60fbffff463400004c3400005634000060340000a0340000c6340000
+      scrollPos: {x: 0, y: 0}
+      m_SelectedIDs: 4c340000
+      m_LastClickedID: 13388
+      m_ExpandedIDs: 6afbffff4c3400005634000060340000a0340000c6340000
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -664,20 +664,20 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Plugins
+    - Assets/Sprites/SoldierRecruitment
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/Plugins
+  - Assets/Sprites/SoldierRecruitment
   m_LastFoldersGridSize: -1
   m_LastProjectPath: "/Users/chenzhiheng/Desktop/Unity\u9879\u76EE/\u6BCF\u65E5\u7CBE\u9009_\u5B9D\u7BB1"
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 7}
-    m_SelectedIDs: e4370000
-    m_LastClickedID: 14308
-    m_ExpandedIDs: 00000000a8370000aa370000ac370000ae370000b0370000b2370000b4370000b6370000b8370000ba370000bc370000be370000c0370000c2370000c4370000c6370000c8370000ca370000cc37000000ca9a3b
+    scrollPos: {x: 0, y: 167}
+    m_SelectedIDs: f8370000
+    m_LastClickedID: 14328
+    m_ExpandedIDs: 00000000a8370000aa370000ac370000ae370000b0370000b2370000b4370000b6370000b8370000ba370000bc370000be370000c0370000c2370000c4370000c6370000c8370000ca370000cc370000ee370000f6370000f837000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -733,7 +733,7 @@ MonoBehaviour:
     m_SelectedInstanceIDs: 
     m_LastClickedInstanceID: 0
     m_HadKeyboardFocusLastEvent: 1
-    m_ExpandedInstanceIDs: c62300000037000000000000283600008c3500006e370000203600002a3600008835000022360000263600002e360000523700001c3600001e3600002c36000024360000
+    m_ExpandedInstanceIDs: c623000000370000000000001c360000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
