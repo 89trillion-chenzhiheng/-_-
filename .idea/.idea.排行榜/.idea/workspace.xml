@@ -4,14 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="dc872357-e693-4854-9871-7b650856e662" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/Library/CurrentLayout-default.dwlt" beforeDir="false" afterPath="$PROJECT_DIR$/Library/CurrentLayout-default.dwlt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/EditorInstance.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/StateCache/Hierarchy/7076f1-mainStage.json" beforeDir="false" afterPath="$PROJECT_DIR$/Library/StateCache/Hierarchy/7076f1-mainStage.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/expandedItems" beforeDir="false" afterPath="$PROJECT_DIR$/Library/expandedItems" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Temp/UnityLockfile" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Temp/__Backupscenes/0.backup" beforeDir="false" />
-    </list>
+    <list default="true" id="dc872357-e693-4854-9871-7b650856e662" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -76,6 +69,7 @@
       <workItem from="1635930448444" duration="110000" />
       <workItem from="1635930618669" duration="292000" />
       <workItem from="1636117687319" duration="111000" />
+      <workItem from="1636118076093" duration="96000" />
     </task>
     <task id="LOCAL-00001" summary="排行榜">
       <created>1635929497260</created>
@@ -91,7 +85,14 @@
       <option name="project" value="LOCAL" />
       <updated>1636117706352</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="排名背景素材的替换">
+      <created>1636118127795</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1636118127795</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -128,6 +129,7 @@
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
     <MESSAGE value="排行榜" />
     <MESSAGE value="删除无用的素材" />
-    <option name="LAST_COMMIT_MESSAGE" value="删除无用的素材" />
+    <MESSAGE value="排名背景素材的替换" />
+    <option name="LAST_COMMIT_MESSAGE" value="排名背景素材的替换" />
   </component>
 </project>
