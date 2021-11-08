@@ -13,11 +13,14 @@
       <change beforePath="$PROJECT_DIR$/Library/shadercompiler-UnityShaderCompiler1.log" beforeDir="false" afterPath="$PROJECT_DIR$/Library/shadercompiler-UnityShaderCompiler1.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/shadercompiler-UnityShaderCompiler2.log" beforeDir="false" afterPath="$PROJECT_DIR$/Library/shadercompiler-UnityShaderCompiler2.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Temp/UnityLockfile" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Temp/UnityTempFile-414ed602d3e444645b5a50f6b2b23ad1" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Temp/UnityTempFile-423cc31698cd04d618a78055711c9b3a" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Temp/UnityTempFile-931a38358a3ca436ab82e75caab2d43c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Temp/UnityTempFile-b3597b73df3bf41d48ee4e9895f92c4f" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Temp/UnityTempFile-24ff2a96ae15448e0a970a921db3c355" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Temp/UnityTempFile-805e9c9585de3443f860926777304bee" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Temp/UnityTempFile-a38f7033520b54de4ac88e4d9172f974" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Temp/UnityTempFile-b121091938ef44c67b0c2bc7430448d0" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Temp/UnityTempFile-cb2f94bbfedcd4202a3e5c0de5539fe6" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Temp/__Backupscenes/0.backup" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/Assembly-CSharp.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/Assembly-CSharp.csproj.AssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/OSA.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/OSA.csproj.AssemblyReference.cache" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -75,6 +78,7 @@
       <updated>1636340339483</updated>
       <workItem from="1636340348060" duration="1300000" />
       <workItem from="1636344237932" duration="144000" />
+      <workItem from="1636356951272" duration="389000" />
     </task>
     <task id="LOCAL-00001" summary="HTTP请求排行榜">
       <created>1636340425800</created>
@@ -97,7 +101,14 @@
       <option name="project" value="LOCAL" />
       <updated>1636344318819</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="外部不使用但需要在面板显示的变量声明使用[SerializeField] private">
+      <created>1636356989342</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1636356989342</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -123,6 +134,7 @@
     <MESSAGE value="HTTP请求排行榜" />
     <MESSAGE value="将素材按照功能进行打图集" />
     <MESSAGE value="只请求一个HTTP，无需每次打开都从HTTP获取数据" />
-    <option name="LAST_COMMIT_MESSAGE" value="只请求一个HTTP，无需每次打开都从HTTP获取数据" />
+    <MESSAGE value="外部不使用但需要在面板显示的变量声明使用[SerializeField] private" />
+    <option name="LAST_COMMIT_MESSAGE" value="外部不使用但需要在面板显示的变量声明使用[SerializeField] private" />
   </component>
 </project>

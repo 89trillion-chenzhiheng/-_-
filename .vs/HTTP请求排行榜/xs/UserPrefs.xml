@@ -1,18 +1,18 @@
 ﻿<Properties StartupConfiguration="{0D69EE1F-61A9-2F0E-8199-E257F86008EE}|">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/View/ToastShowMessage.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/Controller/HTTP/GetHTTPData.cs">
     <Files>
       <File FileName="Assets/Scripts/View/RankingListPanel.cs" Line="17" Column="6" />
-      <File FileName="Assets/Scripts/Model/GameMessageModel.cs" Line="50" Column="6" />
-      <File FileName="Assets/Scripts/Controller/HTTP/RankAPIManager.cs" Line="15" Column="18" />
-      <File FileName="Assets/Scripts/View/PlayerMesssageUIShow.cs" Line="20" Column="6" />
-      <File FileName="Assets/Scripts/Controller/GameManager.cs" Line="18" Column="33" />
-      <File FileName="Assets/Scripts/Controller/HTTP/GetHTTPData.cs" Line="1" Column="1" />
-      <File FileName="Assets/Scripts/Controller/JsonAnalysis/JsonRead.cs" Line="1" Column="1" />
-      <File FileName="Assets/Scripts/Controller/BasicListAdapter.cs" Line="47" Column="70" />
-      <File FileName="Assets/Scripts/Model/ActorModel.cs" Line="1" Column="1" />
-      <File FileName="Assets/Scripts/Model/Event.cs" Line="1" Column="1" />
-      <File FileName="Assets/Scripts/Model/TimeModel.cs" Line="1" Column="1" />
-      <File FileName="Assets/Scripts/View/TimeUIShow.cs" Line="15" Column="29" />
+      <File FileName="Assets/Scripts/Model/GameMessageModel.cs" />
+      <File FileName="Assets/Scripts/Controller/HTTP/RankAPIManager.cs" Line="6" Column="28" />
+      <File FileName="Assets/Scripts/View/PlayerMesssageUIShow.cs" />
+      <File FileName="Assets/Scripts/Controller/GameManager.cs" />
+      <File FileName="Assets/Scripts/Controller/HTTP/GetHTTPData.cs" Line="5" Column="25" />
+      <File FileName="Assets/Scripts/Controller/JsonAnalysis/JsonRead.cs" />
+      <File FileName="Assets/Scripts/Controller/BasicListAdapter.cs" />
+      <File FileName="Assets/Scripts/Model/ActorModel.cs" />
+      <File FileName="Assets/Scripts/Model/Event.cs" />
+      <File FileName="Assets/Scripts/Model/TimeModel.cs" />
+      <File FileName="Assets/Scripts/View/TimeUIShow.cs" />
       <File FileName="Assets/Scripts/View/ToastShowMessage.cs" Line="21" Column="34" />
     </Files>
     <Pads>
@@ -23,13 +23,13 @@
               <Node name="PlugIn" expanded="True" />
               <Node name="Scripts" expanded="True">
                 <Node name="Controller" expanded="True">
-                  <Node name="HTTP" expanded="True" />
+                  <Node name="HTTP" expanded="True">
+                    <Node name="GetHTTPData.cs" selected="True" />
+                  </Node>
                   <Node name="JsonAnalysis" expanded="True" />
                 </Node>
                 <Node name="Model" expanded="True" />
-                <Node name="View" expanded="True">
-                  <Node name="ToastShowMessage.cs" selected="True" />
-                </Node>
+                <Node name="View" expanded="True" />
               </Node>
             </Node>
           </Node>
