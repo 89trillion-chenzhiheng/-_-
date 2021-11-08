@@ -6,13 +6,13 @@ using UnityEngine.UI;
 public class TimeUIShow : MonoBehaviour
 {
     // 天数显示
-    public Text dayShow;
+    [SerializeField] private Text dayShow;
     // 小时显示
-    public Text hourShow;
+    [SerializeField] private Text hourShow;
     // 分钟显示
-    public Text minuteShow;
+    [SerializeField] private Text minuteShow;
     // 秒显示
-    public Text secondShow;
+    [SerializeField] private Text secondShow;
 
 
     /// <summary>
@@ -20,7 +20,6 @@ public class TimeUIShow : MonoBehaviour
     /// </summary>
     public void StartRefreshTimeShow()
     {
-
         // 注册刷新时间事件
         GameMessageModel.TimeModel.OnTimeRefreshClick += RefreshTimeShow;
         RefreshTimeShow(GameMessageModel.TimeModel);

@@ -6,9 +6,9 @@ using UnityEngine.UI;
 public class RankingListPanel : MonoBehaviour
 {
     // 界面透明度控制
-    public CanvasGroup canvasGroup;
+    [SerializeField] private CanvasGroup canvasGroup;
     // 计时器UI显示对象
-    public TimeUIShow timeUIShow;
+    [SerializeField] private TimeUIShow timeUIShow;
     // Toast界面对象
     public ToastShowMessage toastShowMessage;
 
