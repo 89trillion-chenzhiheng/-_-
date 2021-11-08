@@ -64,21 +64,21 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\Scripts\Controller\BasicListAdapter.cs" />
-    <Compile Include="Assets\Scripts\Controller\GameManager.cs" />
-    <Compile Include="Assets\Scripts\Controller\JsonAnalysis\JsonRead.cs" />
-    <Compile Include="Assets\Scripts\Controller\JsonAnalysis\SimpleJson\SimpleJSON.cs" />
-    <Compile Include="Assets\Scripts\Controller\JsonAnalysis\SimpleJson\SimpleJSONBinary.cs" />
-    <Compile Include="Assets\Scripts\Controller\JsonAnalysis\SimpleJson\SimpleJSONDotNetTypes.cs" />
-    <Compile Include="Assets\Scripts\Controller\JsonAnalysis\SimpleJson\SimpleJSONUnity.cs" />
-    <Compile Include="Assets\Scripts\Model\ActorModel.cs" />
-    <Compile Include="Assets\Scripts\Model\Event.cs" />
-    <Compile Include="Assets\Scripts\Model\GameMessageModel.cs" />
-    <Compile Include="Assets\Scripts\Model\TimeModel.cs" />
-    <Compile Include="Assets\Scripts\View\PlayerMesssageUIShow.cs" />
-    <Compile Include="Assets\Scripts\View\RankingListPanel.cs" />
-    <Compile Include="Assets\Scripts\View\TimeUIShow.cs" />
-    <Compile Include="Assets\Scripts\View\ToastShowMessage.cs" />
+    <Compile Include="Assets\JsonOperation\Scripts\Controller\JsonRead.cs" />
+    <Compile Include="Assets\JsonOperation\Scripts\Controller\SimpleJson\SimpleJSON.cs" />
+    <Compile Include="Assets\JsonOperation\Scripts\Controller\SimpleJson\SimpleJSONBinary.cs" />
+    <Compile Include="Assets\JsonOperation\Scripts\Controller\SimpleJson\SimpleJSONDotNetTypes.cs" />
+    <Compile Include="Assets\JsonOperation\Scripts\Controller\SimpleJson\SimpleJSONUnity.cs" />
+    <Compile Include="Assets\RankingListPanel\Scripts\Controller\BasicListAdapter.cs" />
+    <Compile Include="Assets\RankingListPanel\Scripts\Controller\GameManager.cs" />
+    <Compile Include="Assets\RankingListPanel\Scripts\Model\ActorModel.cs" />
+    <Compile Include="Assets\RankingListPanel\Scripts\Model\Event.cs" />
+    <Compile Include="Assets\RankingListPanel\Scripts\Model\GameMessageModel.cs" />
+    <Compile Include="Assets\RankingListPanel\Scripts\Model\TimeModel.cs" />
+    <Compile Include="Assets\RankingListPanel\Scripts\View\PlayerMesssageUIShow.cs" />
+    <Compile Include="Assets\RankingListPanel\Scripts\View\RankingListPanel.cs" />
+    <Compile Include="Assets\RankingListPanel\Scripts\View\TimeUIShow.cs" />
+    <Compile Include="Assets\RankingListPanel\Scripts\View\ToastShowMessage.cs" />
     <None Include="Assets\PlugIn\OSA\Resources\OSA\Templates\ScriptsChunks\HeaderComment.txt" />
     <None Include="Assets\PlugIn\OSA\Resources\OSA\Templates\Scripts\BasicListAdapter.txt" />
     <None Include="Assets\PlugIn\OSA\Resources\OSA\Templates\Scripts\BasicGridAdapter.txt" />
