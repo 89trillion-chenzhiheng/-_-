@@ -1,0 +1,42 @@
+﻿<Properties StartupConfiguration="{0D69EE1F-61A9-2F0E-8199-E257F86008EE}|">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/View/PlayerMesssageUIShow.cs">
+    <Files>
+      <File FileName="Assets/Scripts/View/RankingListPanel.cs" Line="7" Column="2" />
+      <File FileName="Assets/Scripts/Controller/JsonAnalysis/JsonRead.cs" Line="28" Column="10" />
+      <File FileName="Assets/Scripts/Model/GameMessageModel.cs" Line="63" Column="6" />
+      <File FileName="Assets/Scripts/Controller/HTTP/RankAPIManager.cs" Line="23" Column="1" />
+      <File FileName="Assets/Scripts/Controller/HTTP/NewRankListAPI.cs" Line="26" Column="6" />
+      <File FileName="Assets/Scripts/View/PlayerMesssageUIShow.cs" Line="19" Column="20" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="HTTP请求排行榜" expanded="True">
+            <Node name="Assets" expanded="True">
+              <Node name="PlugIn" expanded="True">
+                <Node name="HttpClient" expanded="True" />
+              </Node>
+              <Node name="Scripts" expanded="True">
+                <Node name="Controller" expanded="True">
+                  <Node name="HTTP" expanded="True" />
+                  <Node name="JsonAnalysis" expanded="True" />
+                </Node>
+                <Node name="Model" expanded="True" />
+                <Node name="View" expanded="True">
+                  <Node name="PlayerMesssageUIShow.cs" selected="True" />
+                </Node>
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="a323b3a3-5f71-400b-a467-42a2f757bba7" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>
