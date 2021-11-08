@@ -1,0 +1,45 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!687078895 &4343727234628468602
+SpriteAtlas:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: SegmentPositionIcon
+  m_EditorData:
+    serializedVersion: 2
+    textureSettings:
+      serializedVersion: 2
+      anisoLevel: 1
+      compressionQuality: 50
+      maxTextureSize: 2048
+      textureCompression: 0
+      filterMode: 1
+      generateMipMaps: 0
+      readable: 0
+      crunchedCompression: 0
+      sRGB: 1
+    platformSettings: []
+    packingSettings:
+      serializedVersion: 2
+      padding: 4
+      blockOffset: 1
+      allowAlphaSplitting: 0
+      enableRotation: 1
+      enableTightPacking: 1
+    variantMultiplier: 1
+    packables:
+    - {fileID: 2800000, guid: 20715c188a6f84cc88a12f8cf6152168, type: 3}
+    - {fileID: 2800000, guid: 076443e201545412c93866ed47e46a03, type: 3}
+    - {fileID: 2800000, guid: b2561c1a837b448b7af29bf0628d2716, type: 3}
+    - {fileID: 2800000, guid: 17e1718076767400382f37ae82ee0ca5, type: 3}
+    - {fileID: 2800000, guid: 7d5e8e5d1ee1e489d93deeb2d6c1c87b, type: 3}
+    - {fileID: 2800000, guid: 3ab839bce65584b5fa692ce50df55bf9, type: 3}
+    - {fileID: 2800000, guid: 7b38cbc51b6ba4dfaa54d4372d3e1bdb, type: 3}
+    bindAsDefault: 1
+  m_MasterAtlas: {fileID: 0}
+  m_PackedSprites: []
+  m_PackedSpriteNamesToIndex: []
+  m_Tag: SegmentPositionIcon
+  m_IsVariant: 0
