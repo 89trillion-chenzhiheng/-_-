@@ -4,7 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a9d8a02a-df7f-425d-a57f-9400102b1f36" name="Changes" comment="" />
+    <list default="true" id="a9d8a02a-df7f-425d-a57f-9400102b1f36" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.冠军联赛信息展示/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.冠军联赛信息展示/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.vs/冠军联赛信息展示/xs/UserPrefs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.vs/冠军联赛信息展示/xs/UserPrefs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/ArtifactDB" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ArtifactDB" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/CurrentLayout-default.dwlt" beforeDir="false" afterPath="$PROJECT_DIR$/Library/CurrentLayout-default.dwlt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/EditorInstance.json" beforeDir="false" afterPath="$PROJECT_DIR$/Library/EditorInstance.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/SourceAssetDB" beforeDir="false" afterPath="$PROJECT_DIR$/Library/SourceAssetDB" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Temp/__Backupscenes/0.backup" beforeDir="false" afterPath="$PROJECT_DIR$/Temp/__Backupscenes/0.backup" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -60,6 +68,8 @@
       <option name="presentableId" value="Default" />
       <updated>1636094942100</updated>
       <workItem from="1636094947498" duration="553000" />
+      <workItem from="1636344479588" duration="341000" />
+      <workItem from="1636357650856" duration="27000" />
     </task>
     <task id="LOCAL-00001" summary="冠军联盟信息展示">
       <created>1636095010519</created>
@@ -68,7 +78,14 @@
       <option name="project" value="LOCAL" />
       <updated>1636095010519</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="素材按照功能分类打图集">
+      <created>1636344518046</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1636344518046</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -87,10 +104,12 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
     <MESSAGE value="冠军联盟信息展示" />
-    <option name="LAST_COMMIT_MESSAGE" value="冠军联盟信息展示" />
+    <MESSAGE value="素材按照功能分类打图集" />
+    <option name="LAST_COMMIT_MESSAGE" value="素材按照功能分类打图集" />
   </component>
 </project>

@@ -64,11 +64,11 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\Scripts\Model\CoinModel.cs" />
-    <Compile Include="Assets\Scripts\Model\Event.cs" />
-    <Compile Include="Assets\Scripts\Model\ScoreModel.cs" />
-    <Compile Include="Assets\Scripts\View\LadderOnHighBuildingsPanel.cs" />
-    <Compile Include="Assets\Scripts\View\RewardItem.cs" />
+    <Compile Include="Assets\LadderOnHighBuildingsPanel\Scripts\Model\CoinModel.cs" />
+    <Compile Include="Assets\LadderOnHighBuildingsPanel\Scripts\Model\Event.cs" />
+    <Compile Include="Assets\LadderOnHighBuildingsPanel\Scripts\Model\ScoreModel.cs" />
+    <Compile Include="Assets\LadderOnHighBuildingsPanel\Scripts\View\LadderOnHighBuildingsPanel.cs" />
+    <Compile Include="Assets\LadderOnHighBuildingsPanel\Scripts\View\RewardItem.cs" />
     <Reference Include="UnityEngine">
       <HintPath>/Applications/Unity/Unity.app/Contents/Managed/UnityEngine/UnityEngine.dll</HintPath>
     </Reference>
