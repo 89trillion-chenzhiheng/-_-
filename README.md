@@ -1,8 +1,8 @@
-# 排行榜技术文档
+# HTTP排行榜技术文档
 
 1. 整体框架
 
-    使用SimpleJson从Json文件读取数据，使用快排算法进行排序，通过OSA插件将数据处理并展示在UI界面
+    通过HTTP请求获取数据，使用SimpleJson解析Json，使用快排算法进行排序
     
     
 2. 流程图
@@ -13,6 +13,9 @@
 <img width="279" alt="企业微信截图_33bd60f2-36f7-409d-a3a4-a0d81e7a10f2" src="https://user-images.githubusercontent.com/93114635/140287732-8b789722-b59e-4ba6-a675-c2ca3d2a48d9.png">
     倒计时功能：
 <img width="232" alt="企业微信截图_05317721-9801-4209-8f20-4ff440bf1add" src="https://user-images.githubusercontent.com/93114635/140287871-0952ca18-0154-48bc-916c-5dfaa6b0644e.png">
+    HTTP请求：
+    <img width="332" alt="企业微信截图_5529ee1c-65bd-4d97-8da5-5d14e4ade4b8" src="https://user-images.githubusercontent.com/93114635/140702225-1d808fb2-d9b5-4796-b28f-9e97d8139456.png">
+
 
 3. 目录结构
 
@@ -25,6 +28,8 @@
 GameManager  | Controller|单例模式，提供继承自MonoBehaviour的操作如协程，提供公用或其他地方无法 (获取比较复杂) 获取的资源
 BasicListAdapter  | Controller|OSA插件，提供滑动和更新数据功能
 JsonRead  | Controller|从文件读取解析数据并存下来，方便之后获取; 同时提供根据奖杯数量排序的方法
+RankAPIManager | Controller  |  创建新的HTTP请求，注册请求成功的回调函数，并发送请求
+GetHTTPData | Controller | 获取HTTP数据，创建HTTP请求，发送HTTP请求
 ActorModel  | Model|角色信息
 Event  | Model|事件的声明
 GameMessageModel  | Model|信息类，管理并储存时间数据类和对象信息类
