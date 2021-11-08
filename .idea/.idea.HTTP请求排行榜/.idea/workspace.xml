@@ -4,11 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e375b454-40f9-44fa-9fac-040ec17750f9" name="Changes" comment="HTTP请求排行榜">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.HTTP请求排行榜/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.HTTP请求排行榜/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/ArtifactDB" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ArtifactDB" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/SourceAssetDB" beforeDir="false" afterPath="$PROJECT_DIR$/Library/SourceAssetDB" afterDir="false" />
-    </list>
+    <list default="true" id="e375b454-40f9-44fa-9fac-040ec17750f9" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -63,7 +59,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1636340339483</updated>
-      <workItem from="1636340348060" duration="1175000" />
+      <workItem from="1636340348060" duration="1300000" />
     </task>
     <task id="LOCAL-00001" summary="HTTP请求排行榜">
       <created>1636340425800</created>
@@ -72,7 +68,14 @@
       <option name="project" value="LOCAL" />
       <updated>1636340425800</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="将素材按照功能进行打图集">
+      <created>1636342270101</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1636342270101</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -95,6 +98,7 @@
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
     <MESSAGE value="HTTP请求排行榜" />
-    <option name="LAST_COMMIT_MESSAGE" value="HTTP请求排行榜" />
+    <MESSAGE value="将素材按照功能进行打图集" />
+    <option name="LAST_COMMIT_MESSAGE" value="将素材按照功能进行打图集" />
   </component>
 </project>

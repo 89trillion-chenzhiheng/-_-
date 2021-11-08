@@ -53,7 +53,7 @@ public static class GameMessageModel
         // 创建新的请求排行榜的请求
         RankAPIManager rankAPIManager = new RankAPIManager();
         // 发送请求
-        rankAPIManager.RequestNewRankList(new GameObject(), GetActorModelsByHTTP);
+        rankAPIManager.RequestNewRankList(GameManager.Instance.gameObject, GetActorModelsByHTTP);
     }
 
     /// <summary>

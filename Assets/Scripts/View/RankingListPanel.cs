@@ -15,7 +15,19 @@ public class RankingListPanel : MonoBehaviour
     /// </summary>
     public void OpenButtonClick()
     {
-        GameMessageModel.CreateAndSendRankListRequest(delegate
+        if(GameMessageModel.ActorModels == null)
+        {
+            GameMessageModel.CreateAndSendRankListRequest(delegate
+            {
+                // 将面板显示
+                gameObject.SetActive(true);
+                // 开始刷新时间UI显示
+                timeUIShow.StartRefreshTimeShow();
+                // 开始记时
+                GameMessageModel.TimeModel.StartTimeKeeping();
+            });
+        }
+        else
         {
             // 将面板显示
             gameObject.SetActive(true);
@@ -23,7 +35,7 @@ public class RankingListPanel : MonoBehaviour
             timeUIShow.StartRefreshTimeShow();
             // 开始记时
             GameMessageModel.TimeModel.StartTimeKeeping();
-        });
+        }    
     }
 
     /// <summary>

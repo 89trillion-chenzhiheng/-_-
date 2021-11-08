@@ -1,30 +1,27 @@
 ﻿<Properties StartupConfiguration="{0D69EE1F-61A9-2F0E-8199-E257F86008EE}|">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/View/PlayerMesssageUIShow.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/Model/GameMessageModel.cs">
     <Files>
-      <File FileName="Assets/Scripts/View/RankingListPanel.cs" Line="7" Column="2" />
-      <File FileName="Assets/Scripts/Controller/JsonAnalysis/JsonRead.cs" Line="28" Column="10" />
-      <File FileName="Assets/Scripts/Model/GameMessageModel.cs" Line="63" Column="6" />
-      <File FileName="Assets/Scripts/Controller/HTTP/RankAPIManager.cs" Line="23" Column="1" />
-      <File FileName="Assets/Scripts/Controller/HTTP/NewRankListAPI.cs" Line="26" Column="6" />
+      <File FileName="Assets/Scripts/View/RankingListPanel.cs" Line="6" Column="24" />
+      <File FileName="Assets/Scripts/Model/GameMessageModel.cs" Line="50" Column="6" />
+      <File FileName="Assets/Scripts/Controller/HTTP/RankAPIManager.cs" Line="15" Column="18" />
       <File FileName="Assets/Scripts/View/PlayerMesssageUIShow.cs" Line="19" Column="20" />
+      <File FileName="Assets/Scripts/Controller/GameManager.cs" Line="15" Column="15" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="HTTP请求排行榜" expanded="True">
             <Node name="Assets" expanded="True">
-              <Node name="PlugIn" expanded="True">
-                <Node name="HttpClient" expanded="True" />
-              </Node>
+              <Node name="PlugIn" expanded="True" />
               <Node name="Scripts" expanded="True">
                 <Node name="Controller" expanded="True">
                   <Node name="HTTP" expanded="True" />
                   <Node name="JsonAnalysis" expanded="True" />
                 </Node>
-                <Node name="Model" expanded="True" />
-                <Node name="View" expanded="True">
-                  <Node name="PlayerMesssageUIShow.cs" selected="True" />
+                <Node name="Model" expanded="True">
+                  <Node name="GameMessageModel.cs" selected="True" />
                 </Node>
+                <Node name="View" expanded="True" />
               </Node>
             </Node>
           </Node>
