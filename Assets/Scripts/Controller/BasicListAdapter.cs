@@ -46,9 +46,6 @@ namespace Your.Namespace.Here.UniqueStringHereToAvoidNamespaceConflicts.Lists
 		// Can be iterated and can also have its elements accessed by the [] operator
 		public SimpleDataHelper<MyListItemModel> Data { get; private set; }
 
-		// 当前是第几名的信息显示面板
-		private int index = 0;
-
 
 		#region OSA implementation
 		protected override void Awake()

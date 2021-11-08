@@ -6,15 +6,15 @@ using UnityEngine.UI;
 public class PlayerMesssageUIShow : MonoBehaviour
 {
     // 玩家的ID
-    public string playerID;
+    [SerializeField] private string playerID;
     // 奖杯数量显示
-	public Text trophyNumText;
+    [SerializeField] private Text trophyNumText;
     // 玩家排名显示
-	public Text rankingNumText;
+    [SerializeField] private Text rankingNumText;
     // 玩家ID显示
-	public Text UIdText;
+    [SerializeField] private Text UIdText;
     // 角色名字显示
-	public Text nickNameText;
+    [SerializeField] private Text nickNameText;
 
     public void Awake()
     {

@@ -6,7 +6,7 @@ using UnityEngine.UI;
 public class RankingListPanel : MonoBehaviour
 {
     // 计时器UI显示对象
-    public TimeUIShow timeUIShow;
+    [SerializeField] private TimeUIShow timeUIShow;
     // Toast界面对象
     public ToastShowMessage toastShowMessage;
 

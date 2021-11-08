@@ -4,7 +4,21 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e375b454-40f9-44fa-9fac-040ec17750f9" name="Changes" comment="" />
+    <list default="true" id="e375b454-40f9-44fa-9fac-040ec17750f9" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.vs/HTTP请求排行榜/xs/UserPrefs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.vs/HTTP请求排行榜/xs/UserPrefs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/CurrentLayout-default.dwlt" beforeDir="false" afterPath="$PROJECT_DIR$/Library/CurrentLayout-default.dwlt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/EditorInstance.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/SourceAssetDB" beforeDir="false" afterPath="$PROJECT_DIR$/Library/SourceAssetDB" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/StateCache/Hierarchy/7076f1-mainStage.json" beforeDir="false" afterPath="$PROJECT_DIR$/Library/StateCache/Hierarchy/7076f1-mainStage.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/shadercompiler-UnityShaderCompiler1.log" beforeDir="false" afterPath="$PROJECT_DIR$/Library/shadercompiler-UnityShaderCompiler1.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/shadercompiler-UnityShaderCompiler2.log" beforeDir="false" afterPath="$PROJECT_DIR$/Library/shadercompiler-UnityShaderCompiler2.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Temp/UnityLockfile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Temp/UnityTempFile-414ed602d3e444645b5a50f6b2b23ad1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Temp/UnityTempFile-423cc31698cd04d618a78055711c9b3a" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Temp/UnityTempFile-931a38358a3ca436ab82e75caab2d43c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Temp/UnityTempFile-b3597b73df3bf41d48ee4e9895f92c4f" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Temp/__Backupscenes/0.backup" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -60,6 +74,7 @@
       <option name="presentableId" value="Default" />
       <updated>1636340339483</updated>
       <workItem from="1636340348060" duration="1300000" />
+      <workItem from="1636344237932" duration="144000" />
     </task>
     <task id="LOCAL-00001" summary="HTTP请求排行榜">
       <created>1636340425800</created>
@@ -75,7 +90,14 @@
       <option name="project" value="LOCAL" />
       <updated>1636342270101</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="只请求一个HTTP，无需每次打开都从HTTP获取数据">
+      <created>1636344318819</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1636344318819</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -94,11 +116,13 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
     <MESSAGE value="HTTP请求排行榜" />
     <MESSAGE value="将素材按照功能进行打图集" />
-    <option name="LAST_COMMIT_MESSAGE" value="将素材按照功能进行打图集" />
+    <MESSAGE value="只请求一个HTTP，无需每次打开都从HTTP获取数据" />
+    <option name="LAST_COMMIT_MESSAGE" value="只请求一个HTTP，无需每次打开都从HTTP获取数据" />
   </component>
 </project>

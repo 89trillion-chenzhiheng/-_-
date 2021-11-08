@@ -6,9 +6,9 @@ using UnityEngine.UI;
 public class ToastShowMessage : MonoBehaviour
 {
     // 显示角色名字
-    public Text userShowText;
+    [SerializeField] private Text userShowText;
     // 显示角色奖杯数量
-    public Text rankShowText;
+    [SerializeField] private Text rankShowText;
 
     /// <summary>
     /// 打开界面
