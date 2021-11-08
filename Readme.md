@@ -15,8 +15,9 @@
 <img width="232" alt="企业微信截图_05317721-9801-4209-8f20-4ff440bf1add" src="https://user-images.githubusercontent.com/93114635/140287871-0952ca18-0154-48bc-916c-5dfaa6b0644e.png">
 
 3. 目录结构
+<img width="420" alt="企业微信截图_351c765e-740c-44b4-ac52-298d6db36bad" src="https://user-images.githubusercontent.com/93114635/140714128-7933c9c6-23b3-4d37-b3d8-f86330d61388.png">
 
-<img width="503" alt="企业微信截图_d12ace09-024d-449e-817a-21efb51106c1" src="https://user-images.githubusercontent.com/93114635/140288005-55eda923-7494-430b-b973-31d043320ff3.png">
+
 
 4. 代码逻辑分层
 
