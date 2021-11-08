@@ -1,16 +1,15 @@
 ﻿<Properties StartupConfiguration="{29B68F9C-FF64-6D6B-44A2-060B21DF718A}|">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/Controller/SimpleJSON.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/Controller/AnalysisJson.cs">
     <Files>
-      <File FileName="Assets/Scripts/JsonConversion/AnalysisJson.cs" Line="1" Column="1" />
-      <File FileName="Assets/Scripts/JsonConversion/BlockMessage.cs" Line="14" Column="30" />
-      <File FileName="Assets/Scripts/UI/BlockBase.cs" />
-      <File FileName="Assets/Scripts/UI/Card.cs" Line="50" Column="6" />
-      <File FileName="Assets/Scripts/UI/FreeBlock.cs" />
-      <File FileName="Assets/Scripts/UI/Rewards.cs" Line="75" Column="51" />
-      <File FileName="Assets/Scripts/UI/StorePanel.cs" Line="27" Column="35" />
-      <File FileName="Assets/Scripts/UI/StoreTitle.cs" Line="59" Column="53" />
-      <File FileName="Assets/Scripts/RewardType.cs" />
-      <File FileName="Assets/Scripts/Controller/SimpleJSON.cs" Line="84" Column="58" />
+      <File FileName="Assets/Scripts/View/BlockBase.cs" Line="25" Column="18" />
+      <File FileName="Assets/Scripts/View/Card.cs" Line="49" Column="31" />
+      <File FileName="Assets/Scripts/View/FreeBlock.cs" Line="37" Column="1" />
+      <File FileName="Assets/Scripts/View/Rewards.cs" Line="75" Column="33" />
+      <File FileName="Assets/Scripts/View/StorePanel.cs" Line="27" Column="76" />
+      <File FileName="Assets/Scripts/View/StoreTitle.cs" Line="42" Column="29" />
+      <File FileName="Assets/Scripts/Controller/AnalysisJson.cs" Line="8" Column="11" />
+      <File FileName="Assets/Scripts/Model/BlockMessage.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/Model/RewardType.cs" Line="1" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -19,8 +18,10 @@
             <Node name="Assets" expanded="True">
               <Node name="Scripts" expanded="True">
                 <Node name="Controller" expanded="True">
-                  <Node name="SimpleJSON.cs" selected="True" />
+                  <Node name="AnalysisJson.cs" selected="True" />
                 </Node>
+                <Node name="Model" expanded="True" />
+                <Node name="View" expanded="True" />
               </Node>
             </Node>
           </Node>
@@ -30,7 +31,7 @@
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="c74f99c5-0078-4efe-84e5-17bf880ea258" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="20766459-83ca-461a-aab5-8bb8e8138fbe" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
