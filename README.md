@@ -19,7 +19,8 @@
 
 3. 目录结构
 
-<img width="503" alt="企业微信截图_d12ace09-024d-449e-817a-21efb51106c1" src="https://user-images.githubusercontent.com/93114635/140288005-55eda923-7494-430b-b973-31d043320ff3.png">
+<img width="384" alt="企业微信截图_94a856c8-6c02-4c9e-9372-f36b94ccb31d" src="https://user-images.githubusercontent.com/93114635/140716037-46f0ba5e-8503-4cff-9242-7dc7caed97f6.png">
+
 
 4. 代码逻辑分层
 
