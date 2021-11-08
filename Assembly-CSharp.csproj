@@ -64,20 +64,20 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\Scripts\Controller\GameManager.cs" />
-    <Compile Include="Assets\Scripts\Controller\JsonOperation\AnalysisJson.cs" />
-    <Compile Include="Assets\Scripts\Controller\JsonOperation\SimpleJSON.cs" />
-    <Compile Include="Assets\Scripts\Controller\JsonOperation\SimpleJSONBinary.cs" />
-    <Compile Include="Assets\Scripts\Controller\JsonOperation\SimpleJSONDotNetTypes.cs" />
-    <Compile Include="Assets\Scripts\Controller\JsonOperation\SimpleJSONUnity.cs" />
-    <Compile Include="Assets\Scripts\Model\BlockMessage.cs" />
-    <Compile Include="Assets\Scripts\Model\RewardType.cs" />
-    <Compile Include="Assets\Scripts\View\BlockBase.cs" />
-    <Compile Include="Assets\Scripts\View\Card.cs" />
-    <Compile Include="Assets\Scripts\View\FreeBlock.cs" />
-    <Compile Include="Assets\Scripts\View\Rewards.cs" />
-    <Compile Include="Assets\Scripts\View\StorePanel.cs" />
-    <Compile Include="Assets\Scripts\View\StoreTitle.cs" />
+    <Compile Include="Assets\JsonOperation\Scripts\Controller\AnalysisJson.cs" />
+    <Compile Include="Assets\JsonOperation\Scripts\Controller\SimpleJSON.cs" />
+    <Compile Include="Assets\JsonOperation\Scripts\Controller\SimpleJSONBinary.cs" />
+    <Compile Include="Assets\JsonOperation\Scripts\Controller\SimpleJSONDotNetTypes.cs" />
+    <Compile Include="Assets\JsonOperation\Scripts\Controller\SimpleJSONUnity.cs" />
+    <Compile Include="Assets\StorePanel\Scripts\Controller\GameManager.cs" />
+    <Compile Include="Assets\StorePanel\Scripts\Model\BlockMessage.cs" />
+    <Compile Include="Assets\StorePanel\Scripts\Model\RewardType.cs" />
+    <Compile Include="Assets\StorePanel\Scripts\View\BlockBase.cs" />
+    <Compile Include="Assets\StorePanel\Scripts\View\Card.cs" />
+    <Compile Include="Assets\StorePanel\Scripts\View\FreeBlock.cs" />
+    <Compile Include="Assets\StorePanel\Scripts\View\Rewards.cs" />
+    <Compile Include="Assets\StorePanel\Scripts\View\StorePanel.cs" />
+    <Compile Include="Assets\StorePanel\Scripts\View\StoreTitle.cs" />
     <Reference Include="UnityEngine">
       <HintPath>/Applications/Unity/Unity.app/Contents/Managed/UnityEngine/UnityEngine.dll</HintPath>
     </Reference>
