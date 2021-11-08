@@ -64,13 +64,14 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\Scripts\Controller\ActorActive.cs" />
-    <Compile Include="Assets\Scripts\Controller\Arrow.cs" />
-    <Compile Include="Assets\Scripts\Controller\EnemyController.cs" />
-    <Compile Include="Assets\Scripts\Controller\GameModelManager.cs" />
-    <Compile Include="Assets\Scripts\Controller\PlayerController.cs" />
-    <Compile Include="Assets\Scripts\Controller\TableManager.cs" />
-    <Compile Include="Assets\Scripts\Controller\TableParser.cs" />
+    <Compile Include="Assets\Scripts\Controller\ActorController\ActorActive.cs" />
+    <Compile Include="Assets\Scripts\Controller\ActorController\EnemyController.cs" />
+    <Compile Include="Assets\Scripts\Controller\ActorController\PlayerController.cs" />
+    <Compile Include="Assets\Scripts\Controller\Arrow\Arrow.cs" />
+    <Compile Include="Assets\Scripts\Controller\CSV\GameModelManager.cs" />
+    <Compile Include="Assets\Scripts\Controller\CSV\TableManager.cs" />
+    <Compile Include="Assets\Scripts\Controller\CSV\TableParser.cs" />
+    <Compile Include="Assets\Scripts\Controller\GameManager.cs" />
     <Compile Include="Assets\Scripts\Model\ActorModel.cs" />
     <Compile Include="Assets\Scripts\View\ActorUIMessageShow.cs" />
     <None Include="Assets\Shadow\Bingdong_vogeo.shader" />

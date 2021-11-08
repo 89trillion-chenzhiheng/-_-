@@ -6,9 +6,9 @@ using UnityEngine.UI;
 public class ActorUIMessageShow : MonoBehaviour
 {
     // HP显示的的Text
-    public Text hpShowText;
+    [SerializeField] private Text hpShowText;
     // HP显示的Slider
-    public Slider hoShowSlider;
+    [SerializeField] private Slider hoShowSlider;
 
     /// <summary>
     /// 当HP更改时刷新显示

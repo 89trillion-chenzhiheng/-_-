@@ -6,9 +6,9 @@ using Model;
 public class PlayerController : ActorActive
 {
     // 箭的预制体
-    public GameObject arrowPrefab;
+    [SerializeField] private GameObject arrowPrefab;
     // 箭的父对象，用于收纳和初始化箭的位置
-    public Transform arrowFriend;
+    [SerializeField] private Transform arrowFriend;
 
     // 什么时间可以射击
     private float canShootTime = -999f;
@@ -53,7 +53,7 @@ public class PlayerController : ActorActive
     public void AnimationCallBack()
     {
         // 创建箭头
-        GameObject.Instantiate(arrowPrefab, arrowFriend).GetComponent<Arrow>().damage = actorModel.atk;
+        GameManager.Instance.AddObjHashTypeMessage(GameObject.Instantiate(arrowPrefab, arrowFriend), actorModel.atk);
     }
 
     #region ActorActive

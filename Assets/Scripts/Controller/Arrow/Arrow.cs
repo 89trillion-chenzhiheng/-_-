@@ -5,26 +5,32 @@ using UnityEngine;
 public class Arrow : MonoBehaviour
 {
     // 箭飞行速度
-    public float moveSpeed;
+    [SerializeField] private float moveSpeed;
     // 箭飞行时间
-    public float stayTime;
+    [SerializeField] private float stayTime;
     // 箭的伤害
     [HideInInspector]
     public int damage;
 
+    // 敌人Tag
+    private string enemyTag = "Enemy";
+
 
     public void Start()
     {
+        // 获取印射的伤害
+        damage = GameManager.Instance.ObjHashTypeMessage(gameObject);
+
         StartCoroutine(WaitForDestroyThis());
     }
 
     public void OnTriggerEnter(Collider other)
     {
         // 如果碰撞的是敌人
-        if (other.gameObject.tag.Equals("Enemy")) 
+        if (other.gameObject.tag.Equals(enemyTag)) 
         {
             // 敌人扣血
-            other.gameObject.GetComponent<EnemyController>().Hit(damage);
+            GameManager.Instance.EnemyHit(damage);
         }
     }
 
@@ -45,5 +51,11 @@ public class Arrow : MonoBehaviour
 
         // 销毁自身
         Destroy(gameObject);
+    }
+
+    private void OnDestroy()
+    {
+        // 需要移除印射，避免数据冗余
+        GameManager.Instance.RemoveObjHashTypeMessage(gameObject);
     }
 }
