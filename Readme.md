@@ -20,6 +20,7 @@
 | 类名 | 所属文件 | 主要职责 |
 |-----|---------|--------|
 | AnalysisJson | Controller | 解析Json数据 |
+|GameManager | Controller | 单例模式，提供实例化的物体与物体初始化数据的印射 |
 | BlockMessage | Model | 数据块信息类，用于存储从Json中解析好的数据 |
 | BlockBase | View | 卡片块基类，实现卡片购买后UI的反馈 |
 | Card | View | 非免费卡片，根据类型改变显示的图标和金额 |
