@@ -64,17 +64,17 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\Scripts\Controller\ActorController\ActorActive.cs" />
-    <Compile Include="Assets\Scripts\Controller\ActorController\EnemyController.cs" />
-    <Compile Include="Assets\Scripts\Controller\ActorController\PlayerController.cs" />
-    <Compile Include="Assets\Scripts\Controller\Arrow\Arrow.cs" />
-    <Compile Include="Assets\Scripts\Controller\CSV\GameModelManager.cs" />
-    <Compile Include="Assets\Scripts\Controller\CSV\TableManager.cs" />
-    <Compile Include="Assets\Scripts\Controller\CSV\TableParser.cs" />
-    <Compile Include="Assets\Scripts\Controller\GameManager.cs" />
-    <Compile Include="Assets\Scripts\Model\ActorModel.cs" />
-    <Compile Include="Assets\Scripts\View\ActorUIMessageShow.cs" />
-    <None Include="Assets\Shadow\Bingdong_vogeo.shader" />
+    <Compile Include="Assets\ActorController\Scripts\Controller\ActorController\ActorActive.cs" />
+    <Compile Include="Assets\ActorController\Scripts\Controller\ActorController\EnemyController.cs" />
+    <Compile Include="Assets\ActorController\Scripts\Controller\ActorController\PlayerController.cs" />
+    <Compile Include="Assets\ActorController\Scripts\Controller\Arrow\Arrow.cs" />
+    <Compile Include="Assets\ActorController\Scripts\Controller\GameManager.cs" />
+    <Compile Include="Assets\ActorController\Scripts\Model\ActorModel.cs" />
+    <Compile Include="Assets\ActorController\Scripts\View\ActorUIMessageShow.cs" />
+    <Compile Include="Assets\CSVOperation\Scripts\Controller\GameModelManager.cs" />
+    <Compile Include="Assets\CSVOperation\Scripts\Controller\TableManager.cs" />
+    <Compile Include="Assets\CSVOperation\Scripts\Controller\TableParser.cs" />
+    <None Include="Assets\ActorController\Shadow\Bingdong_vogeo.shader" />
     <Reference Include="UnityEngine">
       <HintPath>/Applications/Unity/Unity.app/Contents/Managed/UnityEngine/UnityEngine.dll</HintPath>
     </Reference>
