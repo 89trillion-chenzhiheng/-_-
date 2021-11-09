@@ -12,14 +12,18 @@ public class Arrow : MonoBehaviour
     [HideInInspector]
     public int damage;
 
+    // 箭的预制体
+    private GameObject arrowPrefab;
     // 敌人Tag
     private string enemyTag = "Enemy";
 
 
-    public void Start()
+    public void OnEnable()
     {
         // 获取印射的伤害
-        damage = GameManager.Instance.ObjHashTypeMessage(gameObject);
+        KeyValuePair<int, GameObject> valuePair = GameManager.Instance.ObjHashTypeMessage(gameObject);
+        damage = valuePair.Key;
+        arrowPrefab = valuePair.Value;
 
         StartCoroutine(WaitForDestroyThis());
     }
@@ -37,7 +41,7 @@ public class Arrow : MonoBehaviour
     public void FixedUpdate()
     {
         // 箭移动
-        transform.Translate(transform.up * moveSpeed * Time.fixedDeltaTime);
+        transform.Translate(-transform.right * moveSpeed * Time.fixedDeltaTime);
     }
 
     /// <summary>
@@ -49,13 +53,19 @@ public class Arrow : MonoBehaviour
         // 等待一段时间
         yield return new WaitForSeconds(stayTime);
 
-        // 销毁自身
-        Destroy(gameObject);
+        // 飞行结束
+        FlyEnd();
     }
 
-    private void OnDestroy()
+    /// <summary>
+    /// 飞行结束进行的操作
+    /// </summary>
+    private void FlyEnd()
     {
+        gameObject.SetActive(false);
         // 需要移除印射，避免数据冗余
         GameManager.Instance.RemoveObjHashTypeMessage(gameObject);
+        // 物体返回对象池
+        GameManager.Instance.poolManager.Recycle(arrowPrefab, gameObject);
     }
 }

@@ -53,7 +53,13 @@ public class PlayerController : ActorActive
     public void AnimationCallBack()
     {
         // 创建箭头
-        GameManager.Instance.AddObjHashTypeMessage(GameObject.Instantiate(arrowPrefab, arrowFriend), actorModel.atk);
+        GameObject item = GameManager.Instance.poolManager.Get(arrowPrefab);
+        GameManager.Instance.AddObjHashTypeMessage(item, new KeyValuePair<int, GameObject>(actorModel.atk, arrowPrefab));
+
+        item.transform.SetParent(arrowFriend);
+        item.transform.localPosition = Vector3.zero;
+        item.transform.localRotation = Quaternion.Euler(Vector3.zero);
+        item.SetActive(true);
     }
 
     #region ActorActive

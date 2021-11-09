@@ -64,11 +64,13 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\ActorController\Prefab\GetInstance.cs" />
     <Compile Include="Assets\ActorController\Scripts\Controller\ActorController\ActorActive.cs" />
     <Compile Include="Assets\ActorController\Scripts\Controller\ActorController\EnemyController.cs" />
     <Compile Include="Assets\ActorController\Scripts\Controller\ActorController\PlayerController.cs" />
     <Compile Include="Assets\ActorController\Scripts\Controller\Arrow\Arrow.cs" />
     <Compile Include="Assets\ActorController\Scripts\Controller\GameManager.cs" />
+    <Compile Include="Assets\ActorController\Scripts\Controller\PoolManager.cs" />
     <Compile Include="Assets\ActorController\Scripts\Model\ActorModel.cs" />
     <Compile Include="Assets\ActorController\Scripts\View\ActorUIMessageShow.cs" />
     <Compile Include="Assets\CSVOperation\Scripts\Controller\GameModelManager.cs" />

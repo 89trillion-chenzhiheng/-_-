@@ -4,6 +4,9 @@ using UnityEngine;
 
 public class GameManager : MonoBehaviour
 {
+    // 对象池
+    [HideInInspector]
+    public PoolManager poolManager;
     // 敌人的控制器，用于扣血
     [SerializeField] private EnemyController enemyController;
 
@@ -11,7 +14,7 @@ public class GameManager : MonoBehaviour
     private static GameManager instance;
 
     // 创建的对象与对象类型的印射
-    private Dictionary<GameObject, int> objHashTypeMessage = new Dictionary<GameObject, int>();
+    private Dictionary<GameObject, KeyValuePair<int, GameObject>> objHashTypeMessage = new Dictionary<GameObject, KeyValuePair<int, GameObject>>();
 
 
     // 获取单例
@@ -26,12 +29,14 @@ public class GameManager : MonoBehaviour
     public void Awake()
     {
         instance = this;
+
+        poolManager = new PoolManager();
     }
 
     /// <summary>
     /// 添加印射
     /// </summary>
-    public void AddObjHashTypeMessage(GameObject obj, int message)
+    public void AddObjHashTypeMessage(GameObject obj, KeyValuePair<int, GameObject> message)
     {
         objHashTypeMessage.Add(obj, message);
     }
@@ -41,7 +46,7 @@ public class GameManager : MonoBehaviour
     /// </summary>
     /// <param name="obj"></param>
     /// <returns></returns>
-    public int ObjHashTypeMessage(GameObject obj)
+    public KeyValuePair<int, GameObject> ObjHashTypeMessage(GameObject obj)
     {
         foreach (var item in objHashTypeMessage)
         {
@@ -51,7 +56,7 @@ public class GameManager : MonoBehaviour
             }
         }
         // 如果没有，返回默认值
-        return default(int);
+        return default(KeyValuePair<int, GameObject>);
     }
 
     /// <summary>
