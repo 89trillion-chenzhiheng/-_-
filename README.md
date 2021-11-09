@@ -22,6 +22,7 @@
 | EnemyController |  Controller | 敌人控制类，控制敌人的动画播放和扣血等行为|
 | PlayerController |  Controller | 玩家控制类，控制角色的动画播放和攻击等行为|
 | GameManager |  Controller | 单例模式，提供实例化的物体与物体初始化数据的印射和敌人扣血的统一方法|
+| PoolManager |  Controller | 道具池，提供物体的取出和存入方法，内部维护物体的物理位置，提供存放物体的数据空间 |
 | ActorModel |  Model | Player和Enemy的信息类，提供了两者的数据信息，从CSV文件中动态读取|
 | ActorUIMessageShow |  View | UI控制类，Player和Enemy共用，提供了刷新血量的UI显示|
 
