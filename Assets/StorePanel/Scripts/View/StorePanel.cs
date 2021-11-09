@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class StorePanel : MonoBehaviour
 {
@@ -24,7 +25,16 @@ public class StorePanel : MonoBehaviour
     public GameObject cardPrefab;
     // 锁着卡片的预制体
     [SerializeField]
-    public GameObject lockPrefab; 
+    public GameObject lockPrefab;
+    // 打开界面按钮
+    [SerializeField]
+    public Button openPanelBtn;
+    // 界面透明度，控制打开和关闭
+    [SerializeField]
+    public GameObject showPanel;
+    // 宝箱特效
+    [SerializeField]
+    public ParticleSystem rewardParticleSystem;
 
 
     public void Start()
@@ -63,5 +73,35 @@ public class StorePanel : MonoBehaviour
                 GameObject.Instantiate(lockPrefab, cardFather);
             } // end for i
         } // end if (blockMessages.Count % 3 != 0)
+    }
+
+    /// <summary>
+    /// 打开界面按钮按下
+    /// </summary>
+    public void OpenPanelBtnClick()
+    {
+        // 对按钮显示的调整，打开界面  关闭：打开按钮
+        openPanelBtn.gameObject.SetActive(false);
+
+        // 打开该界面
+        showPanel.SetActive(true);
+
+        // 粒子特效打开
+        rewardParticleSystem.Play();
+    }
+
+    /// <summary>
+    /// 关闭界面按钮按下
+    /// </summary>
+    public void ClosePanelBtnClick()
+    {
+        // 对按钮显示的调整，打开界面  打开：打开按钮
+        openPanelBtn.gameObject.SetActive(true);
+
+        // 关闭该界面
+        showPanel.SetActive(false);
+
+        // 关闭粒子特效
+        rewardParticleSystem.Pause();
     }
 }

@@ -35,6 +35,10 @@ public class Rewards : MonoBehaviour
     private bool isPlay = false;
     // 第几次点击
     private int clickNum = 0;
+    // 叠加之后的金币数
+    private int coinFlyOverCoinNum = 0;
+    // 金币飞行特效序列
+    private Sequence coinFlySequence;
     // 金币池
     private List<Transform> coins = new List<Transform>(); 
 
@@ -65,6 +69,9 @@ public class Rewards : MonoBehaviour
     /// <returns></returns>
     private IEnumerator CreateCoin(int num)
     {
+        // 获取飞行特效结束后的金币数，避免金币特效飞行时关闭界面出现Bug
+        coinFlyOverCoinNum = num;
+
         // 循环创建金币
         for (int i = 0; i < num; i++) 
         {
@@ -72,7 +79,8 @@ public class Rewards : MonoBehaviour
             yield return new WaitForSeconds(createInterval);
 
             // 更新金币数量 
-            storePanel.storeTitle.CoinAmount += 1;
+            storePanel.storeTitle.CoinAmount++;
+            coinFlyOverCoinNum--;
             // 金币实例设置为null，接下来判断是实例化还是从金币池中获取
             Transform coin = null;
             // 实例化金币
@@ -93,13 +101,13 @@ public class Rewards : MonoBehaviour
             coin.position = coinStartPos.position;
 
             // 制作金币飞行动画序列
-            Sequence sequence = DOTween.Sequence();
+            coinFlySequence = DOTween.Sequence();
             // 获取终点坐标
             Vector3 endPos = coinEndPos.position;
             // 不是最后一个金币
             if(i != num - 1)
             {
-                sequence.Insert(startFlyTime, coin.DOMove(endPos, flyTime)).OnComplete(delegate
+                coinFlySequence.Insert(startFlyTime, coin.DOMove(endPos, flyTime)).OnComplete(delegate
                 {
                     // 将金币隐藏掉
                     coin.gameObject.SetActive(false);
@@ -108,14 +116,38 @@ public class Rewards : MonoBehaviour
             // 是最后一个金币到达目的地，需要执行一些额外的操作
             else
             {
-                sequence.Insert(startFlyTime, coin.DOMove(endPos, flyTime)).OnComplete(delegate
+                coinFlySequence.Insert(startFlyTime, coin.DOMove(endPos, flyTime)).OnComplete(delegate
                 {
                     // 将金币隐藏掉
                     coin.gameObject.SetActive(false);
                     // 飞行结束，可以再次点击按钮
                     isPlay = false;
+                    // 特效结束，飞行后计数清空
+                    coinFlyOverCoinNum = 0;
                 });
             }
+        }
+    }
+
+    /// <summary>
+    /// 当界面隐藏时如关闭界面
+    /// </summary>
+    public void OnDisable()
+    {
+        // 如果特效正在执行，直接加金币
+        if (isPlay) 
+        {
+            storePanel.storeTitle.CoinAmount += coinFlyOverCoinNum;
+        }
+
+        // 关闭特效
+        isPlay = false;
+        coinFlySequence.Pause();
+
+        // 将金币隐藏
+        foreach (var coin in coins)
+        {
+            coin.gameObject.SetActive(false);
         }
     }
 }
