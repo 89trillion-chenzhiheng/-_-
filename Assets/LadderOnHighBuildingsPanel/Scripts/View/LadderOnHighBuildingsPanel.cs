@@ -8,8 +8,6 @@ public class LadderOnHighBuildingsPanel : MonoBehaviour
 {
     // 初始分数
     [SerializeField] private int startScore;
-    // 等待多长时间去加分数
-    [SerializeField] private float waitToAddScoreTime;
     // 初始金币
     [SerializeField] private int startCoin;
     // 分数显示文本
@@ -48,7 +46,7 @@ public class LadderOnHighBuildingsPanel : MonoBehaviour
     public void Awake()
     {
         // 实例化分数类
-        scoreModel = new ScoreModel(this, startScore, waitToAddScoreTime);
+        scoreModel = new ScoreModel(this, startScore);
         // 注册分数更改事件
         scoreModel.OnScoreChallengeClick += RefreshScoreText;
         // 显示分数

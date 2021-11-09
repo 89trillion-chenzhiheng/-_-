@@ -1,21 +1,21 @@
 ﻿<Properties StartupConfiguration="{FCAC5BA4-AB15-A5F2-9BD8-F09DB90D077C}|">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/View/RewardItem.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/LadderOnHighBuildingsPanel/Scripts/View/LadderOnHighBuildingsPanel.cs">
     <Files>
-      <File FileName="Assets/Scripts/View/LadderOnHighBuildingsPanel.cs" Line="30" Column="29" />
-      <File FileName="Assets/Scripts/View/RewardItem.cs" Line="11" Column="11" />
-      <File FileName="Assets/Scripts/Model/ScoreModel.cs" Line="98" Column="2" />
-      <File FileName="Assets/Scripts/Model/CoinModel.cs" Line="1" Column="1" />
-      <File FileName="Assets/Scripts/Model/Event.cs" Line="1" Column="1" />
+      <File FileName="Assets/LadderOnHighBuildingsPanel/Scripts/Model/CoinModel.cs" Line="35" Column="53" />
+      <File FileName="Assets/LadderOnHighBuildingsPanel/Scripts/Model/ScoreModel.cs" Line="21" Column="1" />
+      <File FileName="Assets/LadderOnHighBuildingsPanel/Scripts/View/LadderOnHighBuildingsPanel.cs" Line="51" Column="53" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="冠军联赛信息展示" expanded="True">
             <Node name="Assets" expanded="True">
-              <Node name="Scripts" expanded="True">
-                <Node name="Model" expanded="True" />
-                <Node name="View" expanded="True">
-                  <Node name="RewardItem.cs" selected="True" />
+              <Node name="LadderOnHighBuildingsPanel" expanded="True">
+                <Node name="Scripts" expanded="True">
+                  <Node name="Model" expanded="True" />
+                  <Node name="View" expanded="True">
+                    <Node name="LadderOnHighBuildingsPanel.cs" selected="True" />
+                  </Node>
                 </Node>
               </Node>
             </Node>
@@ -26,7 +26,7 @@
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="a323b3a3-5f71-400b-a467-42a2f757bba7" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="0be43fba-4159-42d2-939a-f14d69758e31" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>

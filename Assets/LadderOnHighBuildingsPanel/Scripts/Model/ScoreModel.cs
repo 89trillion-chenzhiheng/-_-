@@ -15,22 +15,15 @@ public class ScoreModel
 
     // 当前的分数
     private int score;
-    // 多长时间刷新一次分数
-    private float time;
     // 引用天梯界面
     private LadderOnHighBuildingsPanel ladderOnHighBuildingsPanel;
-    // 等待一段时间去添加分数的协程
-    private Coroutine waitTimeToAddScore;
 
-    public ScoreModel(LadderOnHighBuildingsPanel ladderOnHighBuildingsPanel, int score, float time)
+
+    public ScoreModel(LadderOnHighBuildingsPanel ladderOnHighBuildingsPanel, int score)
     {
         // 赋予初始值
         this.score = score;
-        this.time = time;
         this.ladderOnHighBuildingsPanel = ladderOnHighBuildingsPanel;
-
-        // 开始加分
-        waitTimeToAddScore = this.ladderOnHighBuildingsPanel.StartCoroutine(WaitTimeToAddScore(time));
     }
 
     /// <summary>
@@ -69,30 +62,5 @@ public class ScoreModel
 
         // 分数改变事件触发
         OnScoreChallengeClick?.Invoke(this.score);
-    }
-
-    /// <summary>
-    /// 等待一段时间去添加分数
-    /// </summary>
-    /// <param name="time">等待时间</param>
-    /// <returns></returns>
-    private IEnumerator WaitTimeToAddScore(float time)
-    {
-        while(true)
-        {
-            // 等待一段时间，需要避免游戏暂停的情况：游戏暂停，分数依然在增加
-            yield return new WaitForSecondsRealtime(time);
-
-            // 添加分数
-            ChangeScore(score + 1);
-        }
-    }
-
-    /// <summary>
-    /// 析构函数，将开启的协程关闭
-    /// </summary>
-    ~ScoreModel()
-    {
-        ladderOnHighBuildingsPanel.StopCoroutine(waitTimeToAddScore);
     }
 }
