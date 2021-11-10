@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="dc872357-e693-4854-9871-7b650856e662" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.排行榜/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.排行榜/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/SourceAssetDB" beforeDir="false" afterPath="$PROJECT_DIR$/Library/SourceAssetDB" afterDir="false" />
-    </list>
+    <list default="true" id="dc872357-e693-4854-9871-7b650856e662" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -77,6 +74,7 @@
       <workItem from="1636362322409" duration="398000" />
       <workItem from="1636526785020" duration="196000" />
       <workItem from="1636533660752" duration="45000" />
+      <workItem from="1636534061493" duration="85000" />
     </task>
     <task id="LOCAL-00001" summary="排行榜">
       <created>1635929497260</created>
@@ -127,7 +125,14 @@
       <option name="project" value="LOCAL" />
       <updated>1636526804248</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Json解析加入异常处理">
+      <created>1636534082255</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1636534082255</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -169,6 +174,7 @@
     <MESSAGE value="外部不使用但在面板显示的变量声明更换为[SerializeField] private" />
     <MESSAGE value="按照目录格式修改文件夹" />
     <MESSAGE value="修改坐标，尽量使用偶数" />
-    <option name="LAST_COMMIT_MESSAGE" value="修改坐标，尽量使用偶数" />
+    <MESSAGE value="Json解析加入异常处理" />
+    <option name="LAST_COMMIT_MESSAGE" value="Json解析加入异常处理" />
   </component>
 </project>
