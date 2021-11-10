@@ -12,9 +12,9 @@ public class GetHTTPData : BaseAPI
     /// <summary>
     /// 发起HTTP请求
     /// </summary>
-    public void Requst()
+    public void Requst(string path, int type, int page, int season, string token)
     {
-        var httpClient = CreateHTTPClickBuild();
+        var httpClient = CreateHTTPClickBuild(path, type, page, season, token);
         SendRequest(httpClient);
     }
 
@@ -22,14 +22,14 @@ public class GetHTTPData : BaseAPI
     /// 创建请求对象
     /// </summary>
     /// <returns></returns>
-    private HttpClientBuilder CreateHTTPClickBuild()
+    private HttpClientBuilder CreateHTTPClickBuild(string path, int type, int page, int season, string token)
     {
         // 构建请求命令
-        HttpClientBuilder httpClientBuilder = new HttpClientBuilder("http://api-s2.artofwarconquest.com/admin/rankList")
-            .Param("type", 1)
-            .Param("page", 1)
-            .Param("season", 18)
-            .Param("token", "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI0MzY4NjY1MjcifQ.drFj2OtLEjgE452sgtHPG73xU-yQ-OXvbz4Utxl2M1k")
+        HttpClientBuilder httpClientBuilder = new HttpClientBuilder(path)
+            .Param("type", type)
+            .Param("page", page)
+            .Param("season", season)
+            .Param("token", token)
             .Method(HttpMethod.Get);
 
         // 返回请求对象

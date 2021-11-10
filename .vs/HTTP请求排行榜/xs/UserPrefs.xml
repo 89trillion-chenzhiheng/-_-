@@ -1,35 +1,41 @@
 ﻿<Properties StartupConfiguration="{0D69EE1F-61A9-2F0E-8199-E257F86008EE}|">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/Controller/HTTP/GetHTTPData.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/RankingListPanel/Scripts/Controller/BasicListAdapter.cs">
     <Files>
-      <File FileName="Assets/Scripts/View/RankingListPanel.cs" Line="17" Column="6" />
-      <File FileName="Assets/Scripts/Model/GameMessageModel.cs" />
-      <File FileName="Assets/Scripts/Controller/HTTP/RankAPIManager.cs" Line="6" Column="28" />
-      <File FileName="Assets/Scripts/View/PlayerMesssageUIShow.cs" />
-      <File FileName="Assets/Scripts/Controller/GameManager.cs" />
-      <File FileName="Assets/Scripts/Controller/HTTP/GetHTTPData.cs" Line="5" Column="25" />
-      <File FileName="Assets/Scripts/Controller/JsonAnalysis/JsonRead.cs" />
-      <File FileName="Assets/Scripts/Controller/BasicListAdapter.cs" />
-      <File FileName="Assets/Scripts/Model/ActorModel.cs" />
-      <File FileName="Assets/Scripts/Model/Event.cs" />
-      <File FileName="Assets/Scripts/Model/TimeModel.cs" />
-      <File FileName="Assets/Scripts/View/TimeUIShow.cs" />
-      <File FileName="Assets/Scripts/View/ToastShowMessage.cs" Line="21" Column="34" />
+      <File FileName="Assets/RankingListPanel/Scripts/View/RankingListPanel.cs" Line="48" Column="23" />
+      <File FileName="Assets/RankingListPanel/Scripts/Model/GameMessageModel.cs" Line="104" Column="61" />
+      <File FileName="Assets/HTTP/Scripts/Controller/RankAPIManager.cs" Line="13" Column="22" />
+      <File FileName="Assets/HTTP/Scripts/Controller/GetHTTPData.cs" Line="31" Column="37" />
+      <File FileName="Assets/RankingListPanel/Scripts/Model/TimeModel.cs" Line="62" Column="17" />
+      <File FileName="Assets/RankingListPanel/Scripts/Controller/BasicListAdapter.cs" Line="249" Column="17" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="HTTP请求排行榜" expanded="True">
             <Node name="Assets" expanded="True">
-              <Node name="PlugIn" expanded="True" />
-              <Node name="Scripts" expanded="True">
-                <Node name="Controller" expanded="True">
-                  <Node name="HTTP" expanded="True">
-                    <Node name="GetHTTPData.cs" selected="True" />
-                  </Node>
-                  <Node name="JsonAnalysis" expanded="True" />
+              <Node name="AutoBuild" expanded="True">
+                <Node name="HTTPClient" expanded="True" />
+              </Node>
+              <Node name="HTTP" expanded="True">
+                <Node name="Scripts" expanded="True">
+                  <Node name="Controller" expanded="True" />
                 </Node>
-                <Node name="Model" expanded="True" />
-                <Node name="View" expanded="True" />
+              </Node>
+              <Node name="PlugIn" expanded="True">
+                <Node name="OSA" expanded="True">
+                  <Node name="Scripts" expanded="True">
+                    <Node name="DataHelpers" expanded="True" />
+                  </Node>
+                </Node>
+              </Node>
+              <Node name="RankingListPanel" expanded="True">
+                <Node name="Scripts" expanded="True">
+                  <Node name="Controller" expanded="True">
+                    <Node name="BasicListAdapter.cs" selected="True" />
+                  </Node>
+                  <Node name="Model" expanded="True" />
+                  <Node name="View" expanded="True" />
+                </Node>
               </Node>
             </Node>
           </Node>
@@ -39,7 +45,7 @@
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="a323b3a3-5f71-400b-a467-42a2f757bba7" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="619b6a18-0eae-4028-a964-027a1e6d6f80" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>

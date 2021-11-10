@@ -4,24 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e375b454-40f9-44fa-9fac-040ec17750f9" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.HTTP请求排行榜/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.HTTP请求排行榜/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/CurrentLayout-default.dwlt" beforeDir="false" afterPath="$PROJECT_DIR$/Library/CurrentLayout-default.dwlt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/EditorInstance.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/LastSceneManagerSetup.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Library/LastSceneManagerSetup.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/SceneVisibilityState.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Library/SceneVisibilityState.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/SourceAssetDB" beforeDir="false" afterPath="$PROJECT_DIR$/Library/SourceAssetDB" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/StateCache/Hierarchy/7076f1-mainStage.json" beforeDir="false" afterPath="$PROJECT_DIR$/Library/StateCache/Hierarchy/7076f1-mainStage.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/expandedItems" beforeDir="false" afterPath="$PROJECT_DIR$/Library/expandedItems" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/shadercompiler-UnityShaderCompiler1.log" beforeDir="false" afterPath="$PROJECT_DIR$/Library/shadercompiler-UnityShaderCompiler1.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/shadercompiler-UnityShaderCompiler2.log" beforeDir="false" afterPath="$PROJECT_DIR$/Library/shadercompiler-UnityShaderCompiler2.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Temp/UnityLockfile" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Temp/UnityTempFile-173325e60a56a485ca8036a3471d67d0" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Temp/UnityTempFile-53e8f3fe399c5447a8ddc2442d546523" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Temp/UnityTempFile-797f47f9a012c4d88aa1d5a8b4a6049b" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Temp/UnityTempFile-f7efa17fcd19b43fd9d4993e0c4b2ad0" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Temp/__Backupscenes/0.backup" beforeDir="false" />
-    </list>
+    <list default="true" id="e375b454-40f9-44fa-9fac-040ec17750f9" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -80,6 +63,7 @@
       <workItem from="1636344237932" duration="144000" />
       <workItem from="1636356951272" duration="389000" />
       <workItem from="1636362898136" duration="557000" />
+      <workItem from="1636527457321" duration="95000" />
     </task>
     <task id="LOCAL-00001" summary="HTTP请求排行榜">
       <created>1636340425800</created>
@@ -116,7 +100,14 @@
       <option name="project" value="LOCAL" />
       <updated>1636362938314</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="修改坐标，尽量使用偶数">
+      <created>1636527477774</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1636527477774</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -144,6 +135,7 @@
     <MESSAGE value="只请求一个HTTP，无需每次打开都从HTTP获取数据" />
     <MESSAGE value="外部不使用但需要在面板显示的变量声明使用[SerializeField] private" />
     <MESSAGE value="按照目录格式修改文件夹" />
-    <option name="LAST_COMMIT_MESSAGE" value="按照目录格式修改文件夹" />
+    <MESSAGE value="修改坐标，尽量使用偶数" />
+    <option name="LAST_COMMIT_MESSAGE" value="修改坐标，尽量使用偶数" />
   </component>
 </project>

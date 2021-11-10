@@ -62,15 +62,21 @@ namespace Your.Namespace.Here.UniqueStringHereToAvoidNamespaceConflicts.Lists
 		protected override void Start()
 		{
 			base.Start();
+		}
 
+        protected override void OnEnable()
+        {
+            base.OnEnable();
+
+			// 当打开界面去判断数据是否发生变化，发生变化则去刷新显示
 			RetrieveDataAndUpdate(GameMessageModel.ActorModels.Count);
 		}
 
-		// This is called initially, as many times as needed to fill the viewport, 
-		// and anytime the viewport's size grows, thus allowing more items to be displayed
-		// Here you create the "ViewsHolder" instance whose views will be re-used
-		// *For the method's full description check the base implementation
-		protected override MyListItemViewsHolder CreateViewsHolder(int itemIndex)
+        // This is called initially, as many times as needed to fill the viewport, 
+        // and anytime the viewport's size grows, thus allowing more items to be displayed
+        // Here you create the "ViewsHolder" instance whose views will be re-used
+        // *For the method's full description check the base implementation
+        protected override MyListItemViewsHolder CreateViewsHolder(int itemIndex)
 		{
 			var instance = new MyListItemViewsHolder();
 
@@ -143,14 +149,6 @@ namespace Your.Namespace.Here.UniqueStringHereToAvoidNamespaceConflicts.Lists
 				GameManager.Instance.rankingListPanel.toastShowMessage.Show(model.nickName, model.trophy.ToString());
 			});
 		}
-
-		/// <summary>
-        /// 当点击显示Toast按钮被按下
-        /// </summary>
-		private void OnShowToastUIBtnClick()
-        {
-
-        }
 
 		// This is the best place to clear an item's views in order to prepare it from being recycled, but this is not always needed, 
 		// especially if the views' values are being overwritten anyway. Instead, this can be used to, for example, cancel an image 

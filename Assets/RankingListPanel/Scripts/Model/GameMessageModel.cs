@@ -9,10 +9,10 @@ public static class GameMessageModel
     private static TimeModel timeModel;
     // 所有角色信息对象
     private static List<ActorModel> actorModels;
-    // 角色信息是否被排序
-    private static bool isActorModelSort = false;
-    // 获取数据之后的回调
-    private static Action HTTPCallBack;
+    // 请求成功的回调
+    private static Action HTTPSuccessCallBack;
+    // 请求失败的回调
+    private static Action<string, int> HTTPErrorCallBack;
 
     /// <summary>
     /// 获取时间类
@@ -46,63 +46,98 @@ public static class GameMessageModel
     /// <summary>
     /// 创建并发送获取排行榜请求
     /// </summary>
-    public static void CreateAndSendRankListRequest(Action callBack)
+    public static void CreateAndSendRankListRequest(string path, int type, int page, int season, string token,
+        Action requestSuccessCallBack,
+        Action<string, int> requestErrorCallBack)
     {
         // 获取数据之后的回调
-        HTTPCallBack = callBack;
+        HTTPSuccessCallBack = requestSuccessCallBack;
+        // 获取失败之后的回调
+        HTTPErrorCallBack = requestErrorCallBack;
         // 创建新的请求排行榜的请求
         RankAPIManager rankAPIManager = new RankAPIManager();
         // 发送请求
-        rankAPIManager.RequestNewRankList(GameManager.Instance.gameObject, GetActorModelsByHTTP);
+        rankAPIManager.RequestNewRankList(GameManager.Instance.gameObject, path, type, page, season, token, GetActorModelsByHTTPSuccess, GetActorModesByHTTPError, GetActorModesByHTTPCacheRestore);
+    }
+
+    #region InteractiveCallBack
+
+    /// <summary>
+    /// 服务端排行榜数据修改事件
+    /// </summary>
+    /// <param name="data">数据</param>
+    private static void GetActorModesByHTTPCacheRestore(string data)
+    {
+        // 对数据进行解析和排序
+        DataAnalysisAndSort(data);
     }
 
     /// <summary>
-    /// 通过HTTP获取信息数据
+    /// 通过HTTP获取数据成功
     /// </summary>
-    public static void GetActorModelsByHTTP(string data)
+    private static void GetActorModelsByHTTPSuccess(string data)
+    {
+        // 对数据进行解析和排序
+        DataAnalysisAndSort(data);
+
+        // 获取数据成功事件触发
+        HTTPSuccessCallBack?.Invoke();
+    }
+
+    /// <summary>
+    /// 通过HTTP获取数据失败
+    /// </summary>
+    private static void GetActorModesByHTTPError(string msg, int code)
+    {
+        HTTPErrorCallBack?.Invoke(msg, code);
+    }
+
+    /// <summary>
+    /// 对下载后的数据进行解析和排序
+    /// </summary>
+    private static void DataAnalysisAndSort(string data)
     {
         // 解析数据
-        actorModels = JsonRead.GetActorModels(data);
+        List<ActorModel> actors = JsonRead.GetActorModels(data);
 
-        // 如果没有排序则进行排序
-        if (!isActorModelSort)
-        {
-            isActorModelSort = true;
-            SortActorModelByTrophy(0, actorModels.Count - 1);
-        }
+        // 数据按照奖杯数量进行排序
+        SortActorModelByTrophy(actors, 0, actors.Count - 1);
 
-        HTTPCallBack?.Invoke();
+        // 刷新数据
+        actorModels = actors;
     }
+
+    #endregion
 
     /// <summary>
     /// 排序角色信息按照奖杯数量
     /// 快排算法
     /// </summary>
-    private static void SortActorModelByTrophy(int left, int right)
+    private static void SortActorModelByTrophy(List<ActorModel> models, int left, int right)
     {
         if (left < right)
         {
-            ActorModel mid = actorModels[left];
+            ActorModel mid = models[left];
             int leftIndex = left, rightIndex = right;
 
             while (left < right)
             {
-                while (left < right && actorModels[right].trophy <= mid.trophy)
+                while (left < right && models[right].trophy <= mid.trophy)
                 {
                     right--;
                 }
-                actorModels[left] = actorModels[right];
-                while (left < right && actorModels[left].trophy >= mid.trophy)
+                models[left] = models[right];
+                while (left < right && models[left].trophy >= mid.trophy)
                 {
                     left++;
                 }
-                actorModels[right] = actorModels[left];
+                models[right] = models[left];
             }
 
-            actorModels[left] = mid;
+            models[left] = mid;
 
-            SortActorModelByTrophy(leftIndex, left - 1);
-            SortActorModelByTrophy(left + 1, rightIndex);
+            SortActorModelByTrophy(models, leftIndex, left - 1);
+            SortActorModelByTrophy(models, left + 1, rightIndex);
         }
     }
 }
