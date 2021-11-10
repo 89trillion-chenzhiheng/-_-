@@ -3,14 +3,13 @@
   
 2. 流程图<br>
   主流程图
-<img width="140" alt="企业微信截图_cce07065-e665-4485-a676-84ed68ca9fe8" src="https://user-images.githubusercontent.com/93114635/140472625-ccc8ad7a-820f-4d21-9630-6a0817567cfe.png">
+  <img width="157" alt="企业微信截图_c404fb2d-3090-402b-bdcf-f67b44dcb372" src="https://user-images.githubusercontent.com/93114635/141046357-c3f04044-3dd2-41d9-83c8-03e52bd377d9.png">
   分数类
-  <img width="147" alt="企业微信截图_0e3a8f9b-cae9-428b-a851-349576df85f6" src="https://user-images.githubusercontent.com/93114635/140473294-628fdc2b-9edb-4456-a87d-6e42ac2485b5.png">
+  <img width="140" alt="企业微信截图_8d880e18-0de0-4ebb-a867-918a8065b593" src="https://user-images.githubusercontent.com/93114635/141046672-ae5df979-149e-4b7c-8150-89fbf267653e.png">
   赛季更新
-  <img width="356" alt="企业微信截图_dcae4270-d40f-4e28-96b0-391787c43c43" src="https://user-images.githubusercontent.com/93114635/140473754-fc2696b9-1bcf-49e5-ba12-348267575043.png">
+  <img width="335" alt="企业微信截图_0c960116-c461-403c-a70d-ff020f82ab37" src="https://user-images.githubusercontent.com/93114635/141047689-eac52b38-8301-4b5e-8c57-1a25ef56ad37.png">
 
 3. 目录结构
-
 
 <img width="506" alt="企业微信截图_bd1b3794-a59f-4e2d-b62f-639cd0aa6aeb" src="https://user-images.githubusercontent.com/93114635/140717060-7f06281a-885c-425c-be01-56a107990405.png">
 
