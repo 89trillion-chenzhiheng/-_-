@@ -1,19 +1,26 @@
 ﻿<Properties StartupConfiguration="{29B68F9C-FF64-6D6B-44A2-060B21DF718A}|">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/StorePanel/Scripts/View/StorePanel.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/JsonOperation/Scripts/Controller/AnalysisJson.cs">
     <Files>
-      <File FileName="Assets/StorePanel/Scripts/View/StorePanel.cs" Line="84" Column="11" />
-      <File FileName="Assets/StorePanel/Scripts/View/Rewards.cs" Line="1" Column="1" />
+      <File FileName="Assets/StorePanel/Scripts/View/StorePanel.cs" Line="43" Column="64" />
+      <File FileName="Assets/StorePanel/Scripts/View/Rewards.cs" />
+      <File FileName="Assets/JsonOperation/Scripts/Controller/AnalysisJson.cs" Line="18" Column="54" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="每日精选_宝箱" expanded="True">
             <Node name="Assets" expanded="True">
+              <Node name="JsonOperation" expanded="True">
+                <Node name="Scripts" expanded="True">
+                  <Node name="Controller" expanded="True">
+                    <Node name="AnalysisJson.cs" selected="True" />
+                  </Node>
+                </Node>
+              </Node>
               <Node name="StorePanel" expanded="True">
                 <Node name="Scripts" expanded="True">
-                  <Node name="View" expanded="True">
-                    <Node name="StorePanel.cs" selected="True" />
-                  </Node>
+                  <Node name="Model" expanded="True" />
+                  <Node name="View" expanded="True" />
                 </Node>
               </Node>
             </Node>
@@ -24,7 +31,7 @@
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="0be43fba-4159-42d2-939a-f14d69758e31" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="619b6a18-0eae-4028-a964-027a1e6d6f80" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
