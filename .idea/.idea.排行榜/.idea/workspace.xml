@@ -5,15 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="dc872357-e693-4854-9871-7b650856e662" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/Library/ArtifactDB" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ArtifactDB" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/CurrentLayout-default.dwlt" beforeDir="false" afterPath="$PROJECT_DIR$/Library/CurrentLayout-default.dwlt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/EditorInstance.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/LastSceneManagerSetup.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Library/LastSceneManagerSetup.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/SceneVisibilityState.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Library/SceneVisibilityState.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.排行榜/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.排行榜/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/SourceAssetDB" beforeDir="false" afterPath="$PROJECT_DIR$/Library/SourceAssetDB" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/StateCache/Hierarchy/e7df2b-mainStage.json" beforeDir="false" afterPath="$PROJECT_DIR$/Library/StateCache/Hierarchy/e7df2b-mainStage.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/expandedItems" beforeDir="false" afterPath="$PROJECT_DIR$/Library/expandedItems" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Temp/UnityLockfile" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,7 +20,6 @@
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-    <option name="UPDATE_TYPE" value="REBASE" />
   </component>
   <component name="ProjectId" id="20OxP2RkHWHE4iqqTReTImovUCW" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -83,6 +75,8 @@
       <workItem from="1636343602313" duration="171000" />
       <workItem from="1636356478181" duration="185000" />
       <workItem from="1636362322409" duration="398000" />
+      <workItem from="1636526785020" duration="196000" />
+      <workItem from="1636533660752" duration="45000" />
     </task>
     <task id="LOCAL-00001" summary="排行榜">
       <created>1635929497260</created>
@@ -126,7 +120,14 @@
       <option name="project" value="LOCAL" />
       <updated>1636362379898</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="修改坐标，尽量使用偶数">
+      <created>1636526804248</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1636526804248</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -167,6 +168,7 @@
     <MESSAGE value="将素材按照功能分类并打图集" />
     <MESSAGE value="外部不使用但在面板显示的变量声明更换为[SerializeField] private" />
     <MESSAGE value="按照目录格式修改文件夹" />
-    <option name="LAST_COMMIT_MESSAGE" value="按照目录格式修改文件夹" />
+    <MESSAGE value="修改坐标，尽量使用偶数" />
+    <option name="LAST_COMMIT_MESSAGE" value="修改坐标，尽量使用偶数" />
   </component>
 </project>

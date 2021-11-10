@@ -14,7 +14,17 @@ public static class JsonRead
         TextAsset txt = Resources.Load<TextAsset>("ranklist") as TextAsset;
 
         // 解析文件
-        JSONNode jsonObject = JSON.Parse(txt.text);
+        JSONNode jsonObject = null;
+        try
+        {
+            jsonObject = JSON.Parse(txt.text);
+        }
+        catch (System.Exception ex)
+        {
+            // 异常处理，如果出现异常，返回时间为0
+            Debug.Log(ex);
+            return "";
+        }
 
         // 返回数据， 使用string是为了预防数据超出int取值范围，需要转为string，再对其进行进一步拆分操作：拆分为 天：时：分：秒
         return jsonObject["countDown"].ToString();
@@ -33,7 +43,17 @@ public static class JsonRead
         TextAsset txt = Resources.Load<TextAsset>("ranklist") as TextAsset;
 
         // 解析文件
-        JSONNode jsonObject = JSON.Parse(txt.text);
+        JSONNode jsonObject = null;
+        try
+        {
+            jsonObject = JSON.Parse(txt.text);
+        }
+        catch (System.Exception ex)
+        {
+            // 异常处理，如果出现异常，返回null，表示没有获取到数据
+            Debug.Log(ex);
+            return null;
+        }
 
         // 解析数据至对象中
         for (int i = 0; i < jsonObject[1].Count; i++)
