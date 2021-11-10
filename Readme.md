@@ -7,7 +7,7 @@
   分数类
   <img width="140" alt="企业微信截图_8d880e18-0de0-4ebb-a867-918a8065b593" src="https://user-images.githubusercontent.com/93114635/141046672-ae5df979-149e-4b7c-8150-89fbf267653e.png">
   赛季更新
-  <img width="334" alt="企业微信截图_872373a5-6ac1-4693-9293-1cd638baa3ab" src="https://user-images.githubusercontent.com/93114635/141047122-7bc501ce-65aa-402e-9a77-7f92a8214147.png">
+  <img width="335" alt="企业微信截图_0c960116-c461-403c-a70d-ff020f82ab37" src="https://user-images.githubusercontent.com/93114635/141047689-eac52b38-8301-4b5e-8c57-1a25ef56ad37.png">
 
 3. 目录结构
 
