@@ -3,7 +3,7 @@
     <Files>
       <File FileName="Assets/StorePanel/Scripts/View/StorePanel.cs" Line="43" Column="64" />
       <File FileName="Assets/StorePanel/Scripts/View/Rewards.cs" />
-      <File FileName="Assets/JsonOperation/Scripts/Controller/AnalysisJson.cs" Line="18" Column="54" />
+      <File FileName="Assets/JsonOperation/Scripts/Controller/AnalysisJson.cs" Line="16" Column="28" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -12,15 +12,15 @@
             <Node name="Assets" expanded="True">
               <Node name="JsonOperation" expanded="True">
                 <Node name="Scripts" expanded="True">
-                  <Node name="Controller" expanded="True">
-                    <Node name="AnalysisJson.cs" selected="True" />
-                  </Node>
+                  <Node name="Controller" expanded="True" />
                 </Node>
               </Node>
               <Node name="StorePanel" expanded="True">
                 <Node name="Scripts" expanded="True">
                   <Node name="Model" expanded="True" />
-                  <Node name="View" expanded="True" />
+                  <Node name="View" expanded="True">
+                    <Node name="StorePanel.cs" selected="True" />
+                  </Node>
                 </Node>
               </Node>
             </Node>
