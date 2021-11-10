@@ -1,11 +1,14 @@
 1. 整体框架<br>
 主要思路是通过Animator控制角色动画播放，使用碰撞器判断箭矢碰撞扣血<br>
 2. 流程图<br>
-<img width="322" alt="企业微信截图_100d63d2-4be0-4598-9331-49047817fe32" src="https://user-images.githubusercontent.com/93114635/140698842-91fd3991-ea17-4b66-95f7-a81473738c82.png">
+主流程
+<img width="152" alt="企业微信截图_55030b5c-d9f8-49fa-bc33-c6779032a7b9" src="https://user-images.githubusercontent.com/93114635/141040525-25c8b4cd-65a5-444e-9058-202f5988430e.png">
+角色动画播放流程
+<img width="277" alt="企业微信截图_b6782c31-38cf-4627-b3e0-0ba4390df375" src="https://user-images.githubusercontent.com/93114635/141042203-0997c2a5-8879-487e-a4ea-2f4bd44ccc43.png">
 
-<img width="428" alt="企业微信截图_2639a5dd-af0f-4279-b013-84b17c888afe" src="https://user-images.githubusercontent.com/93114635/140698883-86330e75-17e5-4772-914e-96bcb3974e66.png">
-
-<img width="474" alt="企业微信截图_cf0ef82b-58e2-4373-941e-827fd42c48d4" src="https://user-images.githubusercontent.com/93114635/140698930-edb86681-c16d-4f4e-99a6-713143652f14.png">
+<img width="283" alt="企业微信截图_14cdd5e3-71ac-4c01-a966-aef185fdf5b1" src="https://user-images.githubusercontent.com/93114635/141042334-0c3e1823-5df4-48a4-a53e-750b8a19b05c.png">
+箭飞行流程
+<img width="294" alt="企业微信截图_d710c4f8-b9ec-417e-838d-e4a6e5f0b9e5" src="https://user-images.githubusercontent.com/93114635/141042919-55a34283-c257-4a9c-9323-5fd73943e875.png">
 
 3. 目录结构<br>
 
