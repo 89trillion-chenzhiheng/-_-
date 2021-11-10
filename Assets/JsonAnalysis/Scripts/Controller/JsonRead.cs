@@ -14,7 +14,17 @@ public static class JsonRead
         List<ActorModel> actorModels = new List<ActorModel>();
 
         // 解析文件
-        JSONNode jsonObject = JSON.Parse(data);
+        JSONNode jsonObject = null;
+        try
+        {
+            jsonObject = JSON.Parse(data);
+        }
+        catch (System.Exception ex)
+        {
+            // 异常处理，如果出现异常，则返回null，表示没有获得数据，需要重新申请
+            Debug.Log(ex);
+            return null;
+        }
 
         // 解析数据至对象中
         for (int i = 0; i < jsonObject[2][0].Count; i++)
