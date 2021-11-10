@@ -1,11 +1,15 @@
 1. 整体框架<br>
 主要思路是通过Animator控制角色动画播放，使用碰撞器判断箭矢碰撞扣血<br>
 2. 流程图<br>
-<img width="322" alt="企业微信截图_100d63d2-4be0-4598-9331-49047817fe32" src="https://user-images.githubusercontent.com/93114635/140698842-91fd3991-ea17-4b66-95f7-a81473738c82.png">
+主流程
+<img width="152" alt="企业微信截图_55030b5c-d9f8-49fa-bc33-c6779032a7b9" src="https://user-images.githubusercontent.com/93114635/141040525-25c8b4cd-65a5-444e-9058-202f5988430e.png">
+角色动画播放流程
+<img width="263" alt="企业微信截图_32114d68-a2f8-4bc0-b6ba-1ac518b56a84" src="https://user-images.githubusercontent.com/93114635/141048232-88be3618-03c7-496f-8264-116c777b8fbf.png">
 
-<img width="428" alt="企业微信截图_2639a5dd-af0f-4279-b013-84b17c888afe" src="https://user-images.githubusercontent.com/93114635/140698883-86330e75-17e5-4772-914e-96bcb3974e66.png">
+<img width="253" alt="企业微信截图_6fa00a37-635e-401b-be5c-05fae0920211" src="https://user-images.githubusercontent.com/93114635/141048237-dea641b2-c740-4e8b-9af1-55216f547c8d.png">
+箭飞行流程
+<img width="281" alt="企业微信截图_fff748f5-56fe-404f-beb2-c78daca8da25" src="https://user-images.githubusercontent.com/93114635/141048342-058a2170-522f-42c6-8ff7-d18e95b7316d.png">
 
-<img width="474" alt="企业微信截图_cf0ef82b-58e2-4373-941e-827fd42c48d4" src="https://user-images.githubusercontent.com/93114635/140698930-edb86681-c16d-4f4e-99a6-713143652f14.png">
 
 3. 目录结构<br>
 
@@ -22,6 +26,7 @@
 | EnemyController |  Controller | 敌人控制类，控制敌人的动画播放和扣血等行为|
 | PlayerController |  Controller | 玩家控制类，控制角色的动画播放和攻击等行为|
 | GameManager |  Controller | 单例模式，提供实例化的物体与物体初始化数据的印射和敌人扣血的统一方法|
+| PoolManager |  Controller | 道具池，提供物体的取出和存入方法，内部维护物体的物理位置，提供存放物体的数据空间 |
 | ActorModel |  Model | Player和Enemy的信息类，提供了两者的数据信息，从CSV文件中动态读取|
 | ActorUIMessageShow |  View | UI控制类，Player和Enemy共用，提供了刷新血量的UI显示|
 
