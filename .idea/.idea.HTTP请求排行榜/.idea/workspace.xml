@@ -4,15 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e375b454-40f9-44fa-9fac-040ec17750f9" name="Changes" comment="加入HTTP错误处理，缓存处理，HTTP连接UI提示">
-      <change beforePath="$PROJECT_DIR$/.vs/HTTP请求排行榜/xs/UserPrefs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.vs/HTTP请求排行榜/xs/UserPrefs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/JsonAnalysis/Scripts/Controller/JsonRead.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/JsonAnalysis/Scripts/Controller/JsonRead.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/ArtifactDB" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ArtifactDB" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/Assembly-CSharp.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/Assembly-CSharp.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/Assembly-CSharp.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/Assembly-CSharp.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/SourceAssetDB" beforeDir="false" afterPath="$PROJECT_DIR$/Library/SourceAssetDB" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/StateCache/Hierarchy/7076f1-mainStage.json" beforeDir="false" afterPath="$PROJECT_DIR$/Library/StateCache/Hierarchy/7076f1-mainStage.json" afterDir="false" />
-    </list>
+    <list default="true" id="e375b454-40f9-44fa-9fac-040ec17750f9" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -72,7 +64,7 @@
       <workItem from="1636356951272" duration="389000" />
       <workItem from="1636362898136" duration="557000" />
       <workItem from="1636527457321" duration="95000" />
-      <workItem from="1636532654583" duration="349000" />
+      <workItem from="1636532654583" duration="419000" />
     </task>
     <task id="LOCAL-00001" summary="HTTP请求排行榜">
       <created>1636340425800</created>
@@ -123,7 +115,14 @@
       <option name="project" value="LOCAL" />
       <updated>1636532702344</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Json解析加入异常处理">
+      <created>1636533190177</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1636533190178</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -153,6 +152,7 @@
     <MESSAGE value="按照目录格式修改文件夹" />
     <MESSAGE value="修改坐标，尽量使用偶数" />
     <MESSAGE value="加入HTTP错误处理，缓存处理，HTTP连接UI提示" />
-    <option name="LAST_COMMIT_MESSAGE" value="加入HTTP错误处理，缓存处理，HTTP连接UI提示" />
+    <MESSAGE value="Json解析加入异常处理" />
+    <option name="LAST_COMMIT_MESSAGE" value="Json解析加入异常处理" />
   </component>
 </project>

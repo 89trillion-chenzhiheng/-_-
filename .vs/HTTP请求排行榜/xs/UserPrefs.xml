@@ -1,8 +1,9 @@
 ﻿<Properties StartupConfiguration="{0D69EE1F-61A9-2F0E-8199-E257F86008EE}|">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/JsonAnalysis/Scripts/Controller/JsonRead.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/RankingListPanel/Scripts/Model/GameMessageModel.cs">
     <Files>
-      <File FileName="Assets/RankingListPanel/Scripts/Model/GameMessageModel.cs" Line="1" Column="1" />
-      <File FileName="Assets/JsonAnalysis/Scripts/Controller/JsonRead.cs" Line="17" Column="9" />
+      <File FileName="Assets/RankingListPanel/Scripts/Model/GameMessageModel.cs" Line="11" Column="42" />
+      <File FileName="Assets/JsonAnalysis/Scripts/Controller/JsonRead.cs" Line="26" Column="25" />
+      <File FileName="Assets/HTTP/Scripts/Controller/GetHTTPData.cs" Line="25" Column="39" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -17,9 +18,7 @@
               </Node>
               <Node name="JsonAnalysis" expanded="True">
                 <Node name="Scripts" expanded="True">
-                  <Node name="Controller" expanded="True">
-                    <Node name="JsonRead.cs" selected="True" />
-                  </Node>
+                  <Node name="Controller" expanded="True" />
                 </Node>
               </Node>
               <Node name="PlugIn" expanded="True">
@@ -32,7 +31,9 @@
               <Node name="RankingListPanel" expanded="True">
                 <Node name="Scripts" expanded="True">
                   <Node name="Controller" expanded="True" />
-                  <Node name="Model" expanded="True" />
+                  <Node name="Model" expanded="True">
+                    <Node name="GameMessageModel.cs" selected="True" />
+                  </Node>
                   <Node name="View" expanded="True" />
                 </Node>
               </Node>
