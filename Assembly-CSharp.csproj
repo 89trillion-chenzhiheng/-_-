@@ -64,7 +64,6 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\ActorController\Prefab\GetInstance.cs" />
     <Compile Include="Assets\ActorController\Scripts\Controller\ActorController\ActorActive.cs" />
     <Compile Include="Assets\ActorController\Scripts\Controller\ActorController\EnemyController.cs" />
     <Compile Include="Assets\ActorController\Scripts\Controller\ActorController\PlayerController.cs" />

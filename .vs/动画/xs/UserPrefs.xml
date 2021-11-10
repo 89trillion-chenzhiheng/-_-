@@ -1,23 +1,23 @@
 ﻿<Properties StartupConfiguration="{3FB1D57E-3B2E-98FF-B18C-8D285687C998}|">
   <MonoDevelop.Ide.Workbench ActiveDocument="Assets/ActorController/Scripts/Controller/PoolManager.cs">
     <Files>
-      <File FileName="Assets/ActorController/Scripts/Controller/PoolManager.cs" Line="6" Column="2" />
-      <File FileName="Assets/ActorController/Scripts/Controller/GameManager.cs" />
+      <File FileName="Assets/ActorController/Scripts/Controller/PoolManager.cs" Line="93" Column="18" />
+      <File FileName="Assets/ActorController/Scripts/Controller/GameManager.cs" Line="23" Column="12" />
       <File FileName="Assets/ActorController/Scripts/Controller/Arrow/Arrow.cs" />
       <File FileName="Assets/ActorController/Scripts/Controller/ActorController/PlayerController.cs" />
-      <File FileName="Assets/ActorController/Prefab/GetInstance.cs" Line="26" Column="1" />
+      <File FileName="Assets/CSVOperation/Scripts/Controller/GameModelManager.cs" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="动画" expanded="True">
-            <Node name="Assets" expanded="True" selected="True">
+            <Node name="Assets" expanded="True">
               <Node name="ActorController" expanded="True">
-                <Node name="Prefab" expanded="True" />
                 <Node name="Scripts" expanded="True">
                   <Node name="Controller" expanded="True">
                     <Node name="ActorController" expanded="True" />
                     <Node name="Arrow" expanded="True" />
+                    <Node name="PoolManager.cs" selected="True" />
                   </Node>
                 </Node>
               </Node>
@@ -35,7 +35,7 @@
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.ItemProperties.TableRead PreferredExecutionTarget="c74f99c5-0078-4efe-84e5-17bf880ea258" />
-  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="0be43fba-4159-42d2-939a-f14d69758e31" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="619b6a18-0eae-4028-a964-027a1e6d6f80" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
