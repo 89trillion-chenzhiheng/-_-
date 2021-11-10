@@ -14,7 +14,7 @@
     倒计时功能：
 <img width="171" alt="企业微信截图_e14dd6bb-3e66-43b8-bfa6-87f0099ab190" src="https://user-images.githubusercontent.com/93114635/141044709-668ad876-a341-4919-938c-9a86c6152745.png">
     HTTP请求：
-    <img width="310" alt="企业微信截图_5a9b6e25-e7a3-4a8e-bde7-537efdab496e" src="https://user-images.githubusercontent.com/93114635/141045951-a1e3a299-90cb-4c55-ada6-f5e5c9bf1b5c.png">
+    <img width="326" alt="企业微信截图_0ba91bef-d7b2-4a83-b195-ea4f74048196" src="https://user-images.githubusercontent.com/93114635/141047870-12a4bf3d-12a2-4b46-ba1f-24e2bf31a4d3.png">
 
 
 3. 目录结构
