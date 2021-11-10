@@ -7,19 +7,20 @@
     
 2. 流程图
 
-    主程序流程图
-<img width="289" alt="截图" src="https://user-images.githubusercontent.com/93114635/140287410-43543413-8b93-42f4-a557-de0a7275abe4.png">
-    OSA插件
-<img width="279" alt="企业微信截图_33bd60f2-36f7-409d-a3a4-a0d81e7a10f2" src="https://user-images.githubusercontent.com/93114635/140287732-8b789722-b59e-4ba6-a675-c2ca3d2a48d9.png">
+    主程序流程图：
+<img width="166" alt="企业微信截图_2cbe31c4-93f4-45ca-a6d5-d21b5c0c5375" src="https://user-images.githubusercontent.com/93114635/141043820-87f7dd71-a0af-4a1f-bfd9-8ae201b1c7b0.png">
+    OSA插件：
+<img width="171" alt="企业微信截图_cb92ba90-5d01-4dbc-9ef7-40ea434a8b8b" src="https://user-images.githubusercontent.com/93114635/141044291-905eb96e-36d2-4236-b50a-e5e556a5fc7b.png">
     倒计时功能：
-<img width="232" alt="企业微信截图_05317721-9801-4209-8f20-4ff440bf1add" src="https://user-images.githubusercontent.com/93114635/140287871-0952ca18-0154-48bc-916c-5dfaa6b0644e.png">
+<img width="171" alt="企业微信截图_e14dd6bb-3e66-43b8-bfa6-87f0099ab190" src="https://user-images.githubusercontent.com/93114635/141044709-668ad876-a341-4919-938c-9a86c6152745.png">
     HTTP请求：
-    <img width="332" alt="企业微信截图_5529ee1c-65bd-4d97-8da5-5d14e4ade4b8" src="https://user-images.githubusercontent.com/93114635/140702225-1d808fb2-d9b5-4796-b28f-9e97d8139456.png">
+    <img width="326" alt="企业微信截图_0ba91bef-d7b2-4a83-b195-ea4f74048196" src="https://user-images.githubusercontent.com/93114635/141047870-12a4bf3d-12a2-4b46-ba1f-24e2bf31a4d3.png">
 
 
 3. 目录结构
 
-<img width="503" alt="企业微信截图_d12ace09-024d-449e-817a-21efb51106c1" src="https://user-images.githubusercontent.com/93114635/140288005-55eda923-7494-430b-b973-31d043320ff3.png">
+<img width="384" alt="企业微信截图_94a856c8-6c02-4c9e-9372-f36b94ccb31d" src="https://user-images.githubusercontent.com/93114635/140716037-46f0ba5e-8503-4cff-9242-7dc7caed97f6.png">
+
 
 4. 代码逻辑分层
 
