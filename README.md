@@ -4,11 +4,12 @@
 主流程
 <img width="152" alt="企业微信截图_55030b5c-d9f8-49fa-bc33-c6779032a7b9" src="https://user-images.githubusercontent.com/93114635/141040525-25c8b4cd-65a5-444e-9058-202f5988430e.png">
 角色动画播放流程
-<img width="277" alt="企业微信截图_b6782c31-38cf-4627-b3e0-0ba4390df375" src="https://user-images.githubusercontent.com/93114635/141042203-0997c2a5-8879-487e-a4ea-2f4bd44ccc43.png">
+<img width="263" alt="企业微信截图_32114d68-a2f8-4bc0-b6ba-1ac518b56a84" src="https://user-images.githubusercontent.com/93114635/141048232-88be3618-03c7-496f-8264-116c777b8fbf.png">
 
-<img width="283" alt="企业微信截图_14cdd5e3-71ac-4c01-a966-aef185fdf5b1" src="https://user-images.githubusercontent.com/93114635/141042334-0c3e1823-5df4-48a4-a53e-750b8a19b05c.png">
+<img width="253" alt="企业微信截图_6fa00a37-635e-401b-be5c-05fae0920211" src="https://user-images.githubusercontent.com/93114635/141048237-dea641b2-c740-4e8b-9af1-55216f547c8d.png">
 箭飞行流程
-<img width="294" alt="企业微信截图_d710c4f8-b9ec-417e-838d-e4a6e5f0b9e5" src="https://user-images.githubusercontent.com/93114635/141042919-55a34283-c257-4a9c-9323-5fd73943e875.png">
+<img width="281" alt="企业微信截图_fff748f5-56fe-404f-beb2-c78daca8da25" src="https://user-images.githubusercontent.com/93114635/141048342-058a2170-522f-42c6-8ff7-d18e95b7316d.png">
+
 
 3. 目录结构<br>
 
