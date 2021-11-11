@@ -1,11 +1,10 @@
 ﻿<Properties StartupConfiguration="{3FB1D57E-3B2E-98FF-B18C-8D285687C998}|">
   <MonoDevelop.Ide.Workbench ActiveDocument="Assets/ActorController/Scripts/Controller/PoolManager.cs">
     <Files>
-      <File FileName="Assets/ActorController/Scripts/Controller/PoolManager.cs" Line="93" Column="18" />
-      <File FileName="Assets/ActorController/Scripts/Controller/GameManager.cs" Line="23" Column="12" />
+      <File FileName="Assets/ActorController/Scripts/Controller/PoolManager.cs" Line="5" Column="25" />
+      <File FileName="Assets/ActorController/Scripts/Controller/GameManager.cs" />
       <File FileName="Assets/ActorController/Scripts/Controller/Arrow/Arrow.cs" />
-      <File FileName="Assets/ActorController/Scripts/Controller/ActorController/PlayerController.cs" />
-      <File FileName="Assets/CSVOperation/Scripts/Controller/GameModelManager.cs" />
+      <File FileName="Assets/ActorController/Scripts/Controller/ActorController/PlayerController.cs" Line="91" Column="71" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -35,7 +34,7 @@
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.ItemProperties.TableRead PreferredExecutionTarget="c74f99c5-0078-4efe-84e5-17bf880ea258" />
-  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="619b6a18-0eae-4028-a964-027a1e6d6f80" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="8bccb1d6-fb6f-4156-b23a-77de94d3955d" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
