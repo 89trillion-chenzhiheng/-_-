@@ -4,9 +4,9 @@
 2. 流程图<br>
   主流程图
   <img width="129" alt="企业微信截图_34e86db3-be1b-4acb-b88b-c50440883439" src="https://user-images.githubusercontent.com/93114635/141251417-fd7f77e6-d8a8-488b-9c23-a805fe0892cd.png">
-  分数类
+  分数类逻辑
   <img width="126" alt="企业微信截图_9a43d241-6f26-4922-9a40-ee43941fedb9" src="https://user-images.githubusercontent.com/93114635/141251452-2d8a4f23-0184-4fd2-b3d1-5ce6bc5c4718.png">
-  赛季更新
+  赛季更新逻辑
   <img width="323" alt="企业微信截图_fd0ea27a-5a4f-4aae-bf2f-637b1e1f37c7" src="https://user-images.githubusercontent.com/93114635/141251471-64fe2720-ff79-4496-ba31-d8df23caf48b.png">
 
 3. 目录结构
