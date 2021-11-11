@@ -75,6 +75,7 @@
       <workItem from="1636526785020" duration="196000" />
       <workItem from="1636533660752" duration="45000" />
       <workItem from="1636534061493" duration="85000" />
+      <workItem from="1636536980433" duration="43000" />
     </task>
     <task id="LOCAL-00001" summary="排行榜">
       <created>1635929497260</created>
@@ -132,7 +133,14 @@
       <option name="project" value="LOCAL" />
       <updated>1636534082255</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="调整UI适配">
+      <created>1636536997077</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1636536997077</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -175,6 +183,7 @@
     <MESSAGE value="按照目录格式修改文件夹" />
     <MESSAGE value="修改坐标，尽量使用偶数" />
     <MESSAGE value="Json解析加入异常处理" />
-    <option name="LAST_COMMIT_MESSAGE" value="Json解析加入异常处理" />
+    <MESSAGE value="调整UI适配" />
+    <option name="LAST_COMMIT_MESSAGE" value="调整UI适配" />
   </component>
 </project>

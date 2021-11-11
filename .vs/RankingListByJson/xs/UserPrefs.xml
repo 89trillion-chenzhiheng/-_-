@@ -1,0 +1,46 @@
+﻿<Properties StartupConfiguration="{AFD9931B-9DDB-B2E4-714E-71907FC91485}|">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/RankingListPanel/Scripts/Model/GameMessageModel.cs">
+    <Files>
+      <File FileName="Assets/PlugIn/OSA/Scripts/frame8/Extensions/TransformExtensions.cs" Line="19" Column="42" />
+      <File FileName="Assets/JsonOperation/Scripts/Controller/JsonRead.cs" />
+      <File FileName="Assets/RankingListPanel/Scripts/Model/GameMessageModel.cs" Line="92" Column="10" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="RankingListByJson" expanded="True" selected="True">
+            <Node name="Assets" expanded="True">
+              <Node name="JsonOperation" expanded="True">
+                <Node name="Scripts" expanded="True">
+                  <Node name="Controller" expanded="True" />
+                </Node>
+              </Node>
+              <Node name="PlugIn" expanded="True">
+                <Node name="OSA" expanded="True">
+                  <Node name="Scripts" expanded="True">
+                    <Node name="frame8" expanded="True">
+                      <Node name="Extensions" expanded="True" />
+                    </Node>
+                  </Node>
+                </Node>
+              </Node>
+              <Node name="RankingListPanel" expanded="True">
+                <Node name="Scripts" expanded="True">
+                  <Node name="Model" expanded="True" />
+                </Node>
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.OSA PreferredExecutionTarget="278bf399-6a1c-458a-be87-f65c59b10f5b" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="001edbca-39c4-446d-94af-20607ed8e627" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>
