@@ -3,11 +3,11 @@
   
 2. 流程图<br>
   主流程图
-  <img width="157" alt="企业微信截图_c404fb2d-3090-402b-bdcf-f67b44dcb372" src="https://user-images.githubusercontent.com/93114635/141046357-c3f04044-3dd2-41d9-83c8-03e52bd377d9.png">
+  <img width="129" alt="企业微信截图_34e86db3-be1b-4acb-b88b-c50440883439" src="https://user-images.githubusercontent.com/93114635/141251417-fd7f77e6-d8a8-488b-9c23-a805fe0892cd.png">
   分数类
-  <img width="140" alt="企业微信截图_8d880e18-0de0-4ebb-a867-918a8065b593" src="https://user-images.githubusercontent.com/93114635/141046672-ae5df979-149e-4b7c-8150-89fbf267653e.png">
+  <img width="126" alt="企业微信截图_9a43d241-6f26-4922-9a40-ee43941fedb9" src="https://user-images.githubusercontent.com/93114635/141251452-2d8a4f23-0184-4fd2-b3d1-5ce6bc5c4718.png">
   赛季更新
-  <img width="335" alt="企业微信截图_0c960116-c461-403c-a70d-ff020f82ab37" src="https://user-images.githubusercontent.com/93114635/141047689-eac52b38-8301-4b5e-8c57-1a25ef56ad37.png">
+  <img width="323" alt="企业微信截图_fd0ea27a-5a4f-4aae-bf2f-637b1e1f37c7" src="https://user-images.githubusercontent.com/93114635/141251471-64fe2720-ff79-4496-ba31-d8df23caf48b.png">
 
 3. 目录结构
 
