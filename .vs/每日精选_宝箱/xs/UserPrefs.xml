@@ -3,12 +3,12 @@
     <Files>
       <File FileName="Assets/StorePanel/Scripts/View/StorePanel.cs" Line="87" Column="14" />
       <File FileName="Assets/StorePanel/Scripts/View/Rewards.cs" />
-      <File FileName="Assets/JsonOperation/Scripts/Controller/AnalysisJson.cs" Line="8" Column="45" />
+      <File FileName="Assets/JsonOperation/Scripts/Controller/AnalysisJson.cs" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
-          <Node name="每日精选_宝箱" expanded="True">
+          <Node name="每日精选_宝箱" expanded="True" selected="True">
             <Node name="Assets" expanded="True">
               <Node name="JsonOperation" expanded="True">
                 <Node name="Scripts" expanded="True">
@@ -18,9 +18,7 @@
               <Node name="StorePanel" expanded="True">
                 <Node name="Scripts" expanded="True">
                   <Node name="Model" expanded="True" />
-                  <Node name="View" expanded="True">
-                    <Node name="StorePanel.cs" selected="True" />
-                  </Node>
+                  <Node name="View" expanded="True" />
                 </Node>
               </Node>
             </Node>
@@ -31,7 +29,7 @@
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="619b6a18-0eae-4028-a964-027a1e6d6f80" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="001edbca-39c4-446d-94af-20607ed8e627" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>

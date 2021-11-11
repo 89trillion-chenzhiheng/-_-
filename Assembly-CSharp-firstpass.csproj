@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{FBA93059-0750-259B-C342-3F52DB3C5CB0}</ProjectGuid>
+    <ProjectGuid>{548EC36B-73D6-2E35-65CA-4413C675B0AA}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp-firstpass</AssemblyName>
@@ -258,10 +258,10 @@
       <HintPath>/Applications/Unity/Unity.app/Contents/Managed/UnityEditor.dll</HintPath>
     </Reference>
     <Reference Include="DOTween">
-      <HintPath>/Users/chenzhiheng/Desktop/Unity项目/每日精选_宝箱/Assets/Plugins/DOTween/DOTween.dll</HintPath>
+      <HintPath>/Users/chenzhiheng/Desktop/Unity项目/DailyPlanAndSoldierRecruitment/Assets/Plugins/DOTween/DOTween.dll</HintPath>
     </Reference>
     <Reference Include="nunit.framework">
-      <HintPath>/Users/chenzhiheng/Desktop/Unity项目/每日精选_宝箱/Library/PackageCache/com.unity.ext.nunit@1.0.5/net35/unity-custom/nunit.framework.dll</HintPath>
+      <HintPath>/Users/chenzhiheng/Desktop/Unity项目/DailyPlanAndSoldierRecruitment/Library/PackageCache/com.unity.ext.nunit@1.0.5/net35/unity-custom/nunit.framework.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.iOS.Extensions.Xcode">
       <HintPath>/Applications/Unity/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.Xcode.dll</HintPath>
@@ -615,34 +615,34 @@
       <HintPath>/Applications/Unity/Unity.app/Contents/NetStandard/compat/2.0.0/shims/netfx/mscorlib.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Timeline.Editor">
-      <HintPath>/Users/chenzhiheng/Desktop/Unity项目/每日精选_宝箱/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
+      <HintPath>/Users/chenzhiheng/Desktop/Unity项目/DailyPlanAndSoldierRecruitment/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VSCode.Editor">
-      <HintPath>/Users/chenzhiheng/Desktop/Unity项目/每日精选_宝箱/Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
+      <HintPath>/Users/chenzhiheng/Desktop/Unity项目/DailyPlanAndSoldierRecruitment/Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro.Editor">
-      <HintPath>/Users/chenzhiheng/Desktop/Unity项目/每日精选_宝箱/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
+      <HintPath>/Users/chenzhiheng/Desktop/Unity项目/DailyPlanAndSoldierRecruitment/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.UI">
-      <HintPath>/Users/chenzhiheng/Desktop/Unity项目/每日精选_宝箱/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
+      <HintPath>/Users/chenzhiheng/Desktop/Unity项目/DailyPlanAndSoldierRecruitment/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Timeline">
-      <HintPath>/Users/chenzhiheng/Desktop/Unity项目/每日精选_宝箱/Library/ScriptAssemblies/Unity.Timeline.dll</HintPath>
+      <HintPath>/Users/chenzhiheng/Desktop/Unity项目/DailyPlanAndSoldierRecruitment/Library/ScriptAssemblies/Unity.Timeline.dll</HintPath>
     </Reference>
     <Reference Include="Unity.CollabProxy.Editor">
-      <HintPath>/Users/chenzhiheng/Desktop/Unity项目/每日精选_宝箱/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
+      <HintPath>/Users/chenzhiheng/Desktop/Unity项目/DailyPlanAndSoldierRecruitment/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Rider.Editor">
-      <HintPath>/Users/chenzhiheng/Desktop/Unity项目/每日精选_宝箱/Library/ScriptAssemblies/Unity.Rider.Editor.dll</HintPath>
+      <HintPath>/Users/chenzhiheng/Desktop/Unity项目/DailyPlanAndSoldierRecruitment/Library/ScriptAssemblies/Unity.Rider.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.2D.Sprite.Editor">
-      <HintPath>/Users/chenzhiheng/Desktop/Unity项目/每日精选_宝箱/Library/ScriptAssemblies/Unity.2D.Sprite.Editor.dll</HintPath>
+      <HintPath>/Users/chenzhiheng/Desktop/Unity项目/DailyPlanAndSoldierRecruitment/Library/ScriptAssemblies/Unity.2D.Sprite.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro">
-      <HintPath>/Users/chenzhiheng/Desktop/Unity项目/每日精选_宝箱/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
+      <HintPath>/Users/chenzhiheng/Desktop/Unity项目/DailyPlanAndSoldierRecruitment/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.UI">
-      <HintPath>/Users/chenzhiheng/Desktop/Unity项目/每日精选_宝箱/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
+      <HintPath>/Users/chenzhiheng/Desktop/Unity项目/DailyPlanAndSoldierRecruitment/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup></ItemGroup>

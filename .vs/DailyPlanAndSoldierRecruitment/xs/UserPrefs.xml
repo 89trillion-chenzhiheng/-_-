@@ -1,0 +1,26 @@
+﻿<Properties StartupConfiguration="{2C679B29-1D86-2B7B-AA5F-BF48FF2FFA9C}|">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/StorePanel/Scripts/Controller/GameManager.cs">
+    <Files>
+      <File FileName="Assets/StorePanel/Scripts/View/StorePanel.cs" Line="87" Column="14" />
+      <File FileName="Assets/StorePanel/Scripts/View/Rewards.cs" />
+      <File FileName="Assets/JsonOperation/Scripts/Controller/AnalysisJson.cs" />
+      <File FileName="Assets/StorePanel/Scripts/Controller/GameManager.cs" Line="1" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="DailyPlanAndSoldierRecruitment" expanded="True" selected="True">
+            <Node name="Assets" expanded="True" />
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="001edbca-39c4-446d-94af-20607ed8e627" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>
