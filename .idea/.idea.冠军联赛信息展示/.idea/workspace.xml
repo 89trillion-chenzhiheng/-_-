@@ -4,19 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a9d8a02a-df7f-425d-a57f-9400102b1f36" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.vs/冠军联赛信息展示/xs/UserPrefs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.vs/冠军联赛信息展示/xs/UserPrefs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/CurrentLayout-default.dwlt" beforeDir="false" afterPath="$PROJECT_DIR$/Library/CurrentLayout-default.dwlt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/EditorInstance.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/SourceAssetDB" beforeDir="false" afterPath="$PROJECT_DIR$/Library/SourceAssetDB" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/StateCache/Hierarchy/e9a112-mainStage.json" beforeDir="false" afterPath="$PROJECT_DIR$/Library/StateCache/Hierarchy/e9a112-mainStage.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/shadercompiler-UnityShaderCompiler1.log" beforeDir="false" afterPath="$PROJECT_DIR$/Library/shadercompiler-UnityShaderCompiler1.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/shadercompiler-UnityShaderCompiler2.log" beforeDir="false" afterPath="$PROJECT_DIR$/Library/shadercompiler-UnityShaderCompiler2.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Temp/UnityLockfile" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Temp/UnityTempFile-21990cd5fbc4c46d199be4d610c9a65b" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Temp/UnityTempFile-a67401d6da15c4774ab3ea7adc456ac1" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Temp/__Backupscenes/0.backup" beforeDir="false" />
-    </list>
+    <list default="true" id="a9d8a02a-df7f-425d-a57f-9400102b1f36" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -76,6 +64,7 @@
       <workItem from="1636357650856" duration="27000" />
       <workItem from="1636363628431" duration="207000" />
       <workItem from="1636448935566" duration="353000" />
+      <workItem from="1636528002789" duration="114000" />
     </task>
     <task id="LOCAL-00001" summary="冠军联盟信息展示">
       <created>1636095010519</created>
@@ -105,7 +94,14 @@
       <option name="project" value="LOCAL" />
       <updated>1636448954689</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="修改坐标，尽量使用偶数">
+      <created>1636528045537</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1636528045537</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -132,6 +128,7 @@
     <MESSAGE value="素材按照功能分类打图集" />
     <MESSAGE value="按照目录格式修改文件夹" />
     <MESSAGE value="删除自动加分功能" />
-    <option name="LAST_COMMIT_MESSAGE" value="删除自动加分功能" />
+    <MESSAGE value="修改坐标，尽量使用偶数" />
+    <option name="LAST_COMMIT_MESSAGE" value="修改坐标，尽量使用偶数" />
   </component>
 </project>

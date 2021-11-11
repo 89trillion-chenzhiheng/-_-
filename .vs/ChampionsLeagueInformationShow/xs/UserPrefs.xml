@@ -1,0 +1,32 @@
+﻿<Properties StartupConfiguration="{FCAC5BA4-AB15-A5F2-9BD8-F09DB90D077C}|">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/LadderOnHighBuildingsPanel/Scripts/View/LadderOnHighBuildingsPanel.cs">
+    <Files>
+      <File FileName="Assets/LadderOnHighBuildingsPanel/Scripts/Model/CoinModel.cs" Line="35" Column="53" />
+      <File FileName="Assets/LadderOnHighBuildingsPanel/Scripts/Model/ScoreModel.cs" />
+      <File FileName="Assets/LadderOnHighBuildingsPanel/Scripts/View/LadderOnHighBuildingsPanel.cs" Line="39" Column="15" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="ChampionsLeagueInformationShow" expanded="True" selected="True">
+            <Node name="Assets" expanded="True">
+              <Node name="LadderOnHighBuildingsPanel" expanded="True">
+                <Node name="Scripts" expanded="True">
+                  <Node name="Model" expanded="True" />
+                  <Node name="View" expanded="True" />
+                </Node>
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="001edbca-39c4-446d-94af-20607ed8e627" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>
