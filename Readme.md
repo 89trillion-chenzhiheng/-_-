@@ -3,13 +3,14 @@
   
 2. 流程图<br>
   UI逻辑
-  <img width="280" alt="企业微信截图_c90e325a-7373-4524-823a-e319b447d258" src="https://user-images.githubusercontent.com/93114635/141048504-3ca9da8e-34a9-4bca-bb1f-4a4d91f3685e.png">
+  <img width="272" alt="企业微信截图_b39eda17-b3c4-4c67-af12-14a2b2212d1f" src="https://user-images.githubusercontent.com/93114635/141254207-c68f2a22-5496-46ea-8c2d-ede3943e701e.png">
   卡片逻辑
-  <img width="149" alt="企业微信截图_c1377f8d-8cac-4dec-984f-f66c5217fddc" src="https://user-images.githubusercontent.com/93114635/141038192-df4dd484-8522-4131-b36f-d4d1bb190714.png">
-  宝箱逻辑
-  <img width="281" alt="企业微信截图_7ccbe6da-1da3-490b-b4ec-a502dabffe6d" src="https://user-images.githubusercontent.com/93114635/141048704-6a5140b7-572a-4f94-874f-d79f955ffa42.png">
+  <img width="137" alt="企业微信截图_78a30825-d092-45d4-9b74-636d75844951" src="https://user-images.githubusercontent.com/93114635/141254244-d6c8043b-c9cf-446f-b030-9a6b077c9ffd.png">
+  金币飞行逻辑
+  <img width="326" alt="企业微信截图_85366aa4-dfe6-4fec-8abc-59bdd67c5104" src="https://user-images.githubusercontent.com/93114635/141254357-05c0beed-4045-454f-9cc9-44a28028e562.png">
+  <img width="181" alt="企业微信截图_2822083a-2614-441f-bfea-ddf44d494a22" src="https://user-images.githubusercontent.com/93114635/141254400-66928229-1403-4e35-a4d4-bd2c504a856f.png">
   金币池逻辑
-<img width="198" alt="企业微信截图_8dc4d88b-475c-43df-a27f-84002a248e24" src="https://user-images.githubusercontent.com/93114635/141039750-00bcddf3-defb-4eec-ab34-05856b8de342.png">
+  <img width="127" alt="企业微信截图_6a4717ec-77f8-40a4-bfcc-9b2a45a86f4b" src="https://user-images.githubusercontent.com/93114635/141254487-8588b5c3-26d3-42c1-a1de-2ab4a2bf2b24.png">
 3. 目录结构
 <img width="460" alt="企业微信截图_f8095868-0b13-48f0-8652-7d1b535d1599" src="https://user-images.githubusercontent.com/93114635/140706974-0aa0791f-11bf-40f6-a498-69841e86fc96.png">
 <img width="382" alt="企业微信截图_97fd372c-0608-4a83-96e2-d35aba01e4be" src="https://user-images.githubusercontent.com/93114635/140706994-abe83cea-772c-4fdb-a096-42163d22efb6.png">
