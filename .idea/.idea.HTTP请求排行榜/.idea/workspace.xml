@@ -65,6 +65,7 @@
       <workItem from="1636362898136" duration="557000" />
       <workItem from="1636527457321" duration="95000" />
       <workItem from="1636532654583" duration="419000" />
+      <workItem from="1636536714980" duration="69000" />
     </task>
     <task id="LOCAL-00001" summary="HTTP请求排行榜">
       <created>1636340425800</created>
@@ -122,7 +123,14 @@
       <option name="project" value="LOCAL" />
       <updated>1636533190178</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="调整UI适配">
+      <created>1636536730529</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1636536730529</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -153,6 +161,7 @@
     <MESSAGE value="修改坐标，尽量使用偶数" />
     <MESSAGE value="加入HTTP错误处理，缓存处理，HTTP连接UI提示" />
     <MESSAGE value="Json解析加入异常处理" />
-    <option name="LAST_COMMIT_MESSAGE" value="Json解析加入异常处理" />
+    <MESSAGE value="调整UI适配" />
+    <option name="LAST_COMMIT_MESSAGE" value="调整UI适配" />
   </component>
 </project>
